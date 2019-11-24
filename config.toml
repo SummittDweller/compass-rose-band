@@ -17,6 +17,7 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
+  custom_css = ["css/custom.css"]
   favicon = ""
   description = "The last theme you'll ever need. Maybe."
   facebook = "https://www.facebook.com/thecompassroseband.net/"

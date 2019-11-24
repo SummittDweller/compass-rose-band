@@ -2,9 +2,9 @@
 author: "The Compass Rose Band"
 date: 2019-11-02
 linktitle: Welcome
-menu:
-  main:
-    parent: tutorials
+# menu:
+#  main:
+#    parent: tutorials
 next:
 prev:
 title: Welcome
@@ -15,7 +15,7 @@ tags:
 weight: 10
 ---
 
-Welcome to the internet home of The Compass Rose Band, based out of Cedar Rapids, IA.
+Welcome to the internet home of The Compass Rose Band, based out of Cedar Rapids, IA.  
 
 We are a Classic / Southern rock band that plays high energy music from artists such as the Eagles, Beatles, Zac Brown, Styx, Lynyrd Skynyrd, Merle Haggard, Vince Gill, Waylon Jennings, etc.  
 

@@ -1,8 +1,10 @@
 FROM alpine/git
 COPY . /data
 WORKDIR /data
-RUN rm -rf themes/*
-RUN git clone https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+
+## Themes are now submodules, so no need for the next two lines!
+# RUN rm -rf themes/*
+# RUN git clone https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
 
 ##
 

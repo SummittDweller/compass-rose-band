@@ -1,8 +1,8 @@
 FROM alpine/git
 COPY . /data
 WORKDIR /data
-# RUN rm -rf themes/*
-# RUN git clone https://github.com/mackengm/silhouette-hugo.git themes/silhouette-hugo
+RUN rm -rf themes/*
+RUN git clone https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
 
 ##
 

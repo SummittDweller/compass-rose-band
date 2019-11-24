@@ -28,7 +28,7 @@ Use the following syntax to create a new local branch, and tracked upstream bran
 git checkout -b <new branch name>
 ```
 
-### Running the Local Build
+## Running the Local Build
 To develop a Hugo project you need Hugo running in a server mode ([Hugo Quickstart guide](https://gohugo.io/getting-started/quick-start/) for more details).
 
 ```
@@ -41,7 +41,7 @@ The site updates as you edit, reload the page to see your changes.
 
 **NOTE:** once started, the Hugo server will run, blocking the console. Kill it with `Ctrl-C`, when you are done.
 
-## Compiling static site
+## Compiling Static Site
 
 ```
 fin compile

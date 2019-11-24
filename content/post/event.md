@@ -2,9 +2,9 @@
 author: "The Compass Rose Band"
 date: 2019-11-02
 linktitle: Test
-menu:
-  main:
-    parent: tutorials
+# menu:
+#  main:
+#    parent: tutorials
 next:
 prev:
 title: Test

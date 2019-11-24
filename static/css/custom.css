@@ -1,3 +1,16 @@
-header.cover {
-  height: 200px;
+.bg-top {
+  height: 193px;   /* the fixed height of the featured/banner image */
+}
+
+.cover {
+  background-size: 100% !important;
+}
+
+.pv3 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.nav-text {
+  font-size: 5px;
 }

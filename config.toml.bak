@@ -1,41 +1,169 @@
+ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*"]
+baseURL = "https://thecompassroseband.net/"
 title = "The Compass Rose Band"
-baseURL = "https://thecompassroseband.net"
-languageCode = "en-us"
-theme = "ananke"
-themesDir = "themes/"
-
-MetaDataFormat = "yaml"
+# author = "Steve Francia"
+# copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+# paginate = 3
+languageCode = "en"
 DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+## Theme specific examples
+#author = "Sebastian Pech"
+#copyright = "Sebastian Pech"
+# googleAnalytics = "UA-123-45"
 enableRobotsTXT = true
+pygmentsCodeFences = true
+canonifyurls = true
+paginate = 6
+theme="bootstrap-bp-hugo-theme"
 
 [sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+    changefreq = "weekly"
+    priority = 0.5
+
+[permalinks]
+    posts = "/:year/:month/:slug/"
+    post = "/:year/:month/:slug/"
+    pages = "/:slug/"
+    page = "/:slug/"
+
+[Author]
+  name = "Mackenzie McFate"
 
 [params]
-  custom_css = ["css/custom.css", "css/header.css"]
-  favicon = ""
-  description = "The last theme you'll ever need. Maybe."
-  facebook = "https://www.facebook.com/thecompassroseband.net/"
-  twitter = ""
-  instagram = ""
-  youtube = ""
-  github = ""
-  gitlab = ""
-  linkedin = ""
-  mastodon = ""
-  slack = ""
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-black"
-  featured_image = "/images/banner1.jpg"
-  recent_posts_number = 2
+  bannerImage = "/images/banner1.jpg"
+  description = "Text about the site"
+  #images = ["logo.jpg"]
+  # showPostSummary = true
+  # startPageColumns = true
+  # showListsGrouped = true
+  # alwaysExpandMenu = true
+  customDateFormat = "02.01.2006"
+  # hideReadingTime = true
+  # themeColor="dark" # dark, light, blue, do not set for bootstrap default
+  # js=["/js/test_site.js"]
+  # css=["/css/test_site.css"]
+  # csscdn=["https://fonts.googleapis.com/css?family=Concert+One|Roboto&display=swap"]
 
-## Original config.toml follows
-# baseURL = "http://example.org/"
-# languageCode = "en-us"
-# title = "My New Hugo Site"
-# theme = "ananke"
+
+#[languages]
+#  [languages.en]
+#    languageName = "English"
+#    title = "My blog"
+#    weight = 1
+#    [languages.en.params]
+#  [languages.de]
+#    languageName = "Deutsch"
+#    title = "Mein Blog"
+#    weight = 2
+#    [languages.de.params]
+
+
+# Sets Social Media icons to appear and link to your account. Value should be your
+# username unless otherwise noted.
+# Code from https://themes.gohugo.io/future-imperfect/ theme
+[social]
+  # Coding Communities
+  github           = "spech66"
+  gitlab           = ""
+  stackoverflow    = "" # User Number
+  bitbucket        = ""
+  jsfiddle         = ""
+  codepen          = ""
+  # Visual Art Communities
+  deviantart       = ""
+  flickr           = ""
+  behance          = ""
+  dribbble         = ""
+  # Publishing Communities
+  wordpress        = ""
+  medium           = ""
+  # Professional/Business Oriented Communities
+  linkedin         = "sebastian-pech"
+  linkedin_company = ""
+  foursquare       = ""
+  xing             = "Sebastian_Pech3"
+  slideshare       = ""
+  # Social Networks
+  facebook         = "https://www.facebook.com/thecompassroseband.net/"
+  googleplus       = ""
+  reddit           = ""
+  quora            = ""
+  youtube          = ""
+  vimeo            = ""
+  whatsapp         = "" # WhatsApp Number
+  instagram        = "sebastian_pech"
+  tumblr           = ""
+  twitter          = "spech84"
+  skype            = ""
+  snapchat         = ""
+  pinterest        = ""
+  telegram         = ""
+  # Email
+  email            = ""
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+    pre = "<i class='fas fa-heart'></i>"
+
+  [[menu.footer]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+    pre = "<i class='fas fa-address-card'></i>"
+
+  [[menu.footer]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 20
+    pre = "<i class='fas fa-folder'></i>"
+
+  [[menu.footer]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+    pre = "<i class='fas fa-tags'></i>"
+
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disable = false
+    simple = true
+
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disable = false
+    simple = true
+
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true

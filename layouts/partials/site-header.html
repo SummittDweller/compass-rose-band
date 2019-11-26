@@ -1,15 +1,15 @@
 {{ $featured_image := .Param "featured_image"}}
 {{ if $featured_image }}
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-  {{/* Removing title and description text from header when there is a featured image present.  MAM  24-Nov-2019 */}}
   {{ $featured_image := (trim $featured_image "/") | absURL }}
-  <header>
-    <div class="{{ .Site.Params.cover_dimming_class | default "bg-black-60" }}">
-      {{ partial "site-navigation.html" .}}
-    </div>
-    <div class="cover bg-top" style="background-image: url('{{ $featured_image }}');">
-    </div>
-  </header>
+  <div>
+    <header class="bg-black-90 fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l">
+      <div class="{{ .Site.Params.cover_dimming_class | default "bg-black-60" }}">
+        {{ partial "site-navigation.html" .}}
+      </div>
+      <img class="cover bg-top" src="{{ $featured_image }}">
+    </header>
+  </div>
 {{ else }}
   <header>
     <div class="pb3-m pb6-l {{ .Site.Params.background_color_class | default "bg-black" }}">

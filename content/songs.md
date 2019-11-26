@@ -1,8 +1,8 @@
-+++
-title = "Songs We Play"
-date = "2019-11-18"
-menu = "main"
-+++
+---
+title: Songs We Play
+date: 2019-11-18
+menu: main
+---
 
 **We play songs from artists such as:**
 

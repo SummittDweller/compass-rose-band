@@ -1,8 +1,8 @@
-+++
-title = "About the Band"
-date = "2019-11-02"
-menu = "main"
-+++
+---
+title: About the Band
+date: 2019-11-02
+menu: main
+---
 
 **Doug Rassler** - Lead Vocals
 

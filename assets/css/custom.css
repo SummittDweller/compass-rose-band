@@ -1,0 +1,12 @@
+/* See https://travishorn.com/creating-a-responsive-header-image-8ce1d2ed8a4c for guidance */
+
+#site-banner {
+  overflow: hidden;
+  display: block;
+}
+
+#site-banner-image {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 100%
+}

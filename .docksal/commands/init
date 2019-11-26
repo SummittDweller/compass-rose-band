@@ -13,6 +13,10 @@ echo-yellow () { echo -e "${yellow}$1${NC}"; }
 # Abort if anything fails
 set -e
 
+echo-yellow "Sorry, the 'init' function has been disabled for your own protection!"
+sleep 5
+exit
+
 # URL where compiled static site will be available
 STATIC_URL="http://static.${VIRTUAL_HOST}"
 

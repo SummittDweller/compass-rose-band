@@ -40,9 +40,9 @@ theme="bootstrap-bp-hugo-theme"
   # showPostSummary = true
   # startPageColumns = true
   # showListsGrouped = true
-  # alwaysExpandMenu = true
-  customDateFormat = "02.01.2006"
-  # hideReadingTime = true
+  alwaysExpandMenu = true
+  customDateFormat = "Monday, January 2, 2006"  # customDateFormat = "02.01.2006"
+  hideReadingTime = true
   # themeColor="dark" # dark, light, blue, do not set for bootstrap default
   # js=["/js/test_site.js"]
   # css=["/css/test_site.css"]

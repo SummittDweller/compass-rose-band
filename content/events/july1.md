@@ -1,9 +1,7 @@
 ---
 author: The Compass Rose Band
-date: 2019-11-02
+date: 2019-07-01
 linktitle: Wild Hogs Saloon
-next:
-prev:
 title: Wild Hogs Saloon
 tags:
   - past

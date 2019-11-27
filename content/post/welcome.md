@@ -7,9 +7,9 @@ prev:
 title: Welcome
 tags:
   - featured
-  - compass rose band
+  - Compass Rose Band
   - welcome
-weight: 10
+weight: 99
 ---
 
 Welcome to the internet home of The Compass Rose Band, based out of Cedar Rapids, IA.  

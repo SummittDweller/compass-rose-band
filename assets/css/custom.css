@@ -10,3 +10,13 @@
   transform: translateX(-50%);
   width: 100%
 }
+
+a {
+    color: #77714f;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.text-primary {
+    color: #77714f!important;
+}

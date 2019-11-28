@@ -29,9 +29,16 @@ a {
   font-size: 0.75em;
 }
 
-article {
+div.two-columns {
   -webkit-columns: 2 300px;
   -moz-columns: 2 300px;
   columns: 2 300px;
+  margin-bottom: 10px;
+}
+
+div.card-body ul {
+  -webkit-columns: 3 200px;
+  -moz-columns: 3 200px;
+  columns: 3 200px;
   margin-bottom: 10px;
 }

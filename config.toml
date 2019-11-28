@@ -21,14 +21,14 @@ paginate = 6
 theme="bootstrap-bp-hugo-theme"
 
 [sitemap]
-    changefreq = "weekly"
-    priority = 0.5
+  changefreq = "weekly"
+  priority = 0.5
 
 [permalinks]
-    posts = "/:year/:month/:slug/"
-    post = "/:year/:month/:slug/"
-    pages = "/:slug/"
-    page = "/:slug/"
+  posts = "/:year/:month/:slug/"
+  post = "/:year/:month/:slug/"
+  pages = "/:slug/"
+  page = "/:slug/"
 
 [Author]
   name = "Mackenzie McFate"
@@ -92,7 +92,7 @@ theme="bootstrap-bp-hugo-theme"
 #  googleplus       = ""
 #  reddit           = ""
 #  quora            = ""
-  youtube          = ""
+  youtube          = "https://www.facebook.com/thecompassroseband.net/videos/413910802541091/"
 #  vimeo            = ""
 #  whatsapp         = "" # WhatsApp Number
 #  instagram        = ""
@@ -103,17 +103,31 @@ theme="bootstrap-bp-hugo-theme"
 #  pinterest        = ""
 #  telegram         = ""
   # Email
-  email            = ""
+  email            = "drassler@netins.net"
 
 
 [menu]
 
   [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "About the Band"
     url = "/about/"
     weight = 10
     pre = "<i class='fas fa-heart'></i>"
+
+  [[menu.main]]
+    identifier = "songs"
+    name = "Songs We Play"
+    url = "/songs/"
+    weight = 15
+    pre = "<i class='fas fa-music'></i>"
+
+  [[menu.main]]
+    identifier = "fan-gear"
+    name = "Fan Gear"
+    url = "/fan-gear/"
+    weight = 20
+    pre = "<i class='fas fa-tshirt'></i>"
 
   [[menu.footer]]
     identifier = "about"

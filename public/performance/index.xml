@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Compass Rose Band</title>
-    <link>https://thecompassroseband.net/</link>
-    <description>Recent content on The Compass Rose Band</description>
+    <title>Performances on The Compass Rose Band</title>
+    <link>https://thecompassroseband.net/performance/</link>
+    <description>Recent content in Performances on The Compass Rose Band</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 13 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://thecompassroseband.net/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thecompassroseband.net/performance/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -135,39 +135,6 @@
       
       <guid>https://thecompassroseband.net/performance/wild-hogs-saloon/</guid>
       <description>Extend your weekend or cut loose after the Monday back-to-work blues with the Compass Rose Band!</description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>https://thecompassroseband.net/2019/11/welcome/</link>
-      <pubDate>Wed, 27 Nov 2019 22:30:12 -0600</pubDate>
-      
-      <guid>https://thecompassroseband.net/2019/11/welcome/</guid>
-      <description>Welcome to the internet home of The Compass Rose Band, based out of Cedar Rapids, IA.
-We are a Classic / Southern rock band that plays high-energy music from artists such as the
- Eagles, Beatles, Zac Brown, Styx, Lynyrd Skynyrd, Merle Haggard, Vince Gill, Waylon Jennings, and more.  Go to our Facebook page and &amp;ldquo;Like&amp;rdquo; it to get updates via your Facebook account, or follow us on the BandsInTown app.</description>
-    </item>
-    
-    <item>
-      <title>Songs We Play</title>
-      <link>https://thecompassroseband.net/songs/</link>
-      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://thecompassroseband.net/songs/</guid>
-      <description>We play songs from artists such as:
-America, Beach Boys, The Beatles, Billy Currington, Billy Joel, Boston, Brooks and Dunn, Bryan Adams, The Cars, Charlie Daniels, Crosby, Stills &amp;amp; Nash, Cross Canadian Ragweed, Dwight Yoakam, The Eagles, Eddie Mone Garth Brooks, Georgia Satellites, Huey Lewis, J.J. Cale, Jim Croce, Jimmy Buffett, John Mellencamp, Johnny Cash, Kenny Chesney, Kentucky Headhunters, Loggins and Messina, Lynyrd Skynyrd, Merle Haggard, Paul Simon, Pure Prairie League, Roy Orbison, Sam the Sham, Smokie, Stray Cats, Styx, Surfaris, Three Dog Night, Van Morrison Zac Brown, Vince Gill, and Waylon Jennings &amp;amp; Willie Nelson</description>
-    </item>
-    
-    <item>
-      <title>About the Band</title>
-      <link>https://thecompassroseband.net/about/</link>
-      <pubDate>Sat, 02 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://thecompassroseband.net/about/</guid>
-      <description>Doug Rassler - Lead Vocals
-Danny Roberts - Lead Guitar &amp;amp; Vocals
-Mark Lauterwasser - Keyboards &amp;amp; Vocals
-Ron Johnson - Drums</description>
     </item>
     
   </channel>

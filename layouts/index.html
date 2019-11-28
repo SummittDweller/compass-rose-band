@@ -1,22 +1,43 @@
 {{ define "main" }}
 
 <div class="container mt-3 mb-3">
-    {{ $paginator := .Paginate ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "!=" "page") }}
-    {{ if .Site.Params.startPageColumns }}
-        <div class="card-columns">
-            {{ range $paginator.Pages }}
-                {{- partial "content_index.html" . -}}
-            {{ end }}
-        </div>
-    {{ else }}
-        {{ range $paginator.Pages }}
-            <div class="mb-3">
-                {{- partial "content_index.html" . -}}
-            </div>
-        {{ end }}
-    {{ end }}
 
-    {{ template "_internal/pagination.html" . }}
+  <h4>Upcoming Performances</h4>
+  <article class="performace-list">
+    <ul class="upcoming-performances">
+      {{ range first 12 (where .Site.RegularPages.ByDate "Type" "performance") }}
+        {{ if ge .Date.Unix now.Unix }}
+          <li>
+            <span class="performance-line-1">
+              <a href="{{ .Permalink }}">
+              {{ .Title }} - {{ .Date.Format "Monday, January 2" }}</a>
+            </span>
+            <br/>
+            <span class="performance-line-2">
+            &nbsp;&nbsp;&nbsp;&nbsp; {{ .Params.startTime }} to {{ .Params.endTime }} &bullet; {{ .Params.location }} &bullet; {{ .Params.city }}
+            </span>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </article>
+
+  {{ $paginator := .Paginate ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "not in" "['page' 'performance']") }}
+  {{ if .Site.Params.startPageColumns }}
+    <div class="card-columns">
+      {{ range $paginator.Pages }}
+        {{- partial "content_index.html" . -}}
+      {{ end }}
+    </div>
+  {{ else }}
+    {{ range $paginator.Pages }}
+      <div class="mb-3">
+        {{- partial "content_index.html" . -}}
+      </div>
+    {{ end }}
+  {{ end }}
+
+  {{ template "_internal/pagination.html" . }}
 </div>
 
 {{ end }}

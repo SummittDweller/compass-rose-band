@@ -20,3 +20,18 @@ a {
 .text-primary {
     color: #77714f!important;
 }
+
+.performance-line-1 {
+  font-size: 1em;
+}
+
+.performance-line-2 {
+  font-size: 0.75em;
+}
+
+article {
+  -webkit-columns: 2 300px;
+  -moz-columns: 2 300px;
+  columns: 2 300px;
+  margin-bottom: 10px;
+}

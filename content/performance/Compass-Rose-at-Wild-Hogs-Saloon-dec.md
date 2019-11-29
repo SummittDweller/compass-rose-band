@@ -2,7 +2,7 @@
 title: "Compass Rose at Wild Hogs Saloon"
 type: performance
 lastMod: 2019-11-28T21:35:32-06:00
-date: 2020-02-03
+date: 2019-12-02
 startTime: "5pm"
 endTime: "9pm"
 location: "Wild Hogs Saloon"

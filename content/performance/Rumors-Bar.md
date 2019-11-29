@@ -1,14 +1,17 @@
 ---
 title: "Rumors Bar"
 type: performance
-date: 2019-12-21T16:00:00-06:00
+lastMod: 2019-11-28T21:41:22-06:00
+date: 2019-12-21
 startTime: "4pm"
 endTime: "8pm"
 location: "Rumors Bar"
 city: "Cedar Rapids, IA"
+venues:
+  - Rumors Bar
+  - Cedar Rapids
 description: "Text about this post"
 publishDate: 2019-11-27
-lastMod: 2019-11-27
 draft: false
 ---
 

@@ -2,11 +2,32 @@
 
 <div class="container mt-3 mb-3">
 
+  <div class="welcome">
+    <p>Welcome to the internet home of <b>The Compass Rose Band</b>, based out of Cedar Rapids, IA.</p>
+    <p>We are a Classic / Southern rock band that plays high-energy music from artists such as:</p>
+
+    <div class="three-columns">
+      <ul>
+        <li>The Eagles</li>
+        <li>The Beatles</li>
+        <li>Zac Brown</li>
+        <li>Styx</li>
+        <li>Lynyrd Skynyrd</li>
+        <li>Merle Haggard</li>
+        <li>Vince Gill</li>
+        <li>Waylon Jennings, and more.</li>
+      </ul>
+    </div>
+
+    <p>Go to our <a href="https://www.facebook.com/thecompassroseband.net/" target="_blank">Facebook page</a> and "Like" it to get updates via your <i>Facebook</i> account, or follow us on the <i>BandsInTown</i> app. You can view a video of one of our performances <a href="https://www.facebook.com/watch/?v=413910802541091" target="_blank">here</a>.</p>
+  </div>
+
   <h4>Upcoming Performances</h4>
   <div class="two-columns">
     <ul class="upcoming-performances">
-      {{ range first 12 (where .Site.RegularPages.ByDate "Type" "performance") }}
+      {{ range (where .Site.RegularPages.ByDate "Type" "performance") }}
         {{ if ge .Date.Unix now.Unix }}
+          <div class="keep-together">
           <li>
             <span class="performance-line-1">
               <a href="{{ .Permalink }}">
@@ -17,6 +38,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp; {{ .Params.startTime }}&nbsp;to&nbsp;{{ .Params.endTime }} &bullet;&nbsp;{{ .Params.location }} &bullet;&nbsp;{{ .Params.city }}
             </span>
           </li>
+          </div>
         {{ end }}
       {{ end }}
     </ul>

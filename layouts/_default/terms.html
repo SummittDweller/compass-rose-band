@@ -19,8 +19,8 @@
                         <div class="card-body">
                     <h2 id="{{ $key | urlize }}">{{ $key }}</h2>
                     <ul>
-                        {{ range $value.Pages.ByDate.Reverse }}
-                            <li><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a></li>
+                        {{ range $value.Pages.ByDate }}
+                            <li><span><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}&nbsp;- {{ .Date.Format "January" }}&nbsp;{{ .Date.Format "2," }}&nbsp;{{ .Date.Format "2006" }}</a></span></li>
                         {{ end}}
                     </ul>
                 </div>

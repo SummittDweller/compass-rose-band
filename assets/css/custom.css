@@ -42,3 +42,14 @@ div.card-body ul {
   columns: 3 200px;
   margin-bottom: 10px;
 }
+
+div.three-columns ul {
+  -webkit-columns: 3 200px;
+  -moz-columns: 3 200px;
+  columns: 3 200px;
+  margin-bottom: 10px;
+}
+
+div.keep-together {
+  display: inline-block;
+}

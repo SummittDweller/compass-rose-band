@@ -35,7 +35,7 @@ theme="bootstrap-bp-hugo-theme"
 
 [params]
   bannerImage = "/images/banner1.jpg"
-  description = "Text about the site"
+  description = "My funcle is the lead singer!"
   #images = ["logo.jpg"]
   # showPostSummary = true
   # startPageColumns = true
@@ -66,45 +66,9 @@ theme="bootstrap-bp-hugo-theme"
 # username unless otherwise noted.
 # Code from https://themes.gohugo.io/future-imperfect/ theme
 [social]
-  # Coding Communities
-  github           = "https://github.com/SummittDweller/compass-rose-band"
-#  gitlab           = ""
-#  stackoverflow    = "" # User Number
-#  bitbucket        = ""
-#  jsfiddle         = ""
-#  codepen          = ""
-  # Visual Art Communities
-#  deviantart       = ""
-#  flickr           = ""
-#  behance          = ""
-#  dribbble         = ""
-  # Publishing Communities
-#  wordpress        = ""
-#  medium           = ""
-  # Professional/Business Oriented Communities
-#  linkedin         = ""
-#  linkedin_company = ""
-#  foursquare       = ""
-#  xing             = ""
-#  slideshare       = ""
-  # Social Networks
-  facebook         = "https://www.facebook.com/thecompassroseband.net/"
-#  googleplus       = ""
-#  reddit           = ""
-#  quora            = ""
-  youtube          = "https://www.facebook.com/thecompassroseband.net/videos/413910802541091/"
-#  vimeo            = ""
-#  whatsapp         = "" # WhatsApp Number
-#  instagram        = ""
-#  tumblr           = ""
-#  twitter          = ""
-#  skype            = ""
-#  snapchat         = ""
-#  pinterest        = ""
-#  telegram         = ""
-  # Email
-  email            = "drassler@netins.net"
-
+  facebook = "thecompassroseband.net/"
+  email = "drassler@netins.net"
+  # youtube = "https://www.facebook.com/thecompassroseband.net/videos/413910802541091/"
 
 [menu]
 
@@ -129,6 +93,27 @@ theme="bootstrap-bp-hugo-theme"
     weight = 20
     pre = "<i class='fas fa-tshirt'></i>"
 
+  [[menu.main]]
+    identifier = "videos"
+    name = "Videos"
+    url = "/videos/"
+    weight = 25
+    pre = "<i class='fas fa-film'></i>"
+
+  [[menu.main]]
+    identifier = "past-performances"
+    name = "Past Performances"
+    url = "/past/"
+    weight = 30
+    pre = "<i class='fas fa-glass-cheers'></i>"
+
+  [[menu.main]]
+    identifier = "contact-us"
+    name = "Contact Us"
+    url = "/contact-us/"
+    weight = 3
+    pre = "<i class='far fa-envelope'></i>"
+
   [[menu.footer]]
     identifier = "about"
     name = "About"
@@ -137,24 +122,17 @@ theme="bootstrap-bp-hugo-theme"
     pre = "<i class='fas fa-address-card'></i>"
 
   [[menu.footer]]
-    identifier = "categories"
-    name = "Categories"
-    url = "/categories/"
-    weight = 20
-    pre = "<i class='fas fa-folder'></i>"
-
-  [[menu.footer]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
+    identifier = "venues"
+    name = "Venues"
+    url = "/venues/"
     weight = 30
     pre = "<i class='fas fa-tags'></i>"
 
-
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+venues = "venues"
+#category = "categories"
+#tag = "tags"
+#series = "series"
 
 [privacy]
 

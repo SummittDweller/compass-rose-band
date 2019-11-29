@@ -1,14 +1,17 @@
 ---
 title: "St Joe's Fun Days"
 type: performance
+lastMod: 2019-11-28T21:41:22-06:00
 date: 2020-06-06
 startTime: "6pm"
 endTime: "10pm"
-location: "St Joseph's Catholic Church "
+location: "St Joseph's Catholic Church"
 city: "Marion, IA"
+venues:
+  - "St. Joseph's Catholic Church"
+  - Marion
 description: "Text about this post"
 publishDate: 2019-11-27
-lastMod: 2019-11-27
 draft: false
 ---
 

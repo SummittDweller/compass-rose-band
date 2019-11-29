@@ -12,13 +12,13 @@
 }
 
 a {
-    color: #77714f;
-    text-decoration: none;
-    background-color: transparent;
+  color: #77714f;
+  text-decoration: none;
+  background-color: transparent;
 }
 
 .text-primary {
-    color: #77714f!important;
+  color: #77714f!important;
 }
 
 .performance-line-1 {
@@ -52,4 +52,21 @@ div.three-columns ul {
 
 div.keep-together {
   display: inline-block;
+}
+
+div.form-field {
+  padding: 5px; 15px;
+}
+
+div.form-field-footer {
+  font-size: smaller;
+}
+
+div.form-field input,
+div.form-field textarea {
+  width: 100%;
+}
+
+input.form-submit {
+  margin: 5px 15px;
 }

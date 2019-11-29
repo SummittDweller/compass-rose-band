@@ -108,7 +108,7 @@ theme="bootstrap-bp-hugo-theme"
     pre = "<i class='fas fa-glass-cheers'></i>"
 
   [[menu.main]]
-    identifier = "contact-us"
+    identifier = "contact"
     name = "Contact Us"
     url = "/contact/"
     weight = 3

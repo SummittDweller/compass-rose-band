@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on The Compass Rose Band</title>
+    <link>https://thecompassroseband.net/events/</link>
+    <description>Recent content in Events on The Compass Rose Band</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="https://thecompassroseband.net/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wild Hogs Saloon</title>
+      <link>https://thecompassroseband.net/events/wild-hogs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thecompassroseband.net/events/wild-hogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rumors Bar</title>
+      <link>https://thecompassroseband.net/events/rumors-bar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thecompassroseband.net/events/rumors-bar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wild Hogs Saloon</title>
+      <link>https://thecompassroseband.net/events/july1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thecompassroseband.net/events/july1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

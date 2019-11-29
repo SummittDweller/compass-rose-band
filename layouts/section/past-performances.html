@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<div class="container mt-3 mb-3">
+
+  <h4>Past Performances</h4>
+  <div class="two-columns">
+    <ul class="upcoming-performances">
+      {{ range (where .Site.RegularPages.ByDate.Reverse "Type" "performance") }}
+        {{ if lt .Date.Unix now.Unix }}
+          <div class="keep-together">
+          <li>
+            <span class="performance-line-1">
+              <a href="{{ .Permalink }}">
+              {{ .Title }}&nbsp;-&nbsp;{{ .Date.Format "Monday," }}&nbsp;{{ .Date.Format "January" }}&nbsp;{{ .Date.Format "2" }}</a>
+            </span>
+            <br/>
+            <span class="performance-line-2">
+            &nbsp;&nbsp;&nbsp;&nbsp; {{ .Params.startTime }}&nbsp;to&nbsp;{{ .Params.endTime }} &bullet;&nbsp;{{ .Params.location }} &bullet;&nbsp;{{ .Params.city }}
+            </span>
+          </li>
+          </div>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+
+  {{ template "_internal/pagination.html" . }}
+</div>
+
+{{ end }}

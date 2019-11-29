@@ -17,8 +17,10 @@ a {
   background-color: transparent;
 }
 
+h4,
+h1.card-title,
 .text-primary {
-  color: #77714f!important;
+  color: #77714f !important;
 }
 
 .performance-line-1 {

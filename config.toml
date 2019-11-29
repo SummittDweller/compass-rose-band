@@ -103,7 +103,7 @@ theme="bootstrap-bp-hugo-theme"
   [[menu.main]]
     identifier = "past-performances"
     name = "Past Performances"
-    url = "/past/"
+    url = "/past-performances/"
     weight = 30
     pre = "<i class='fas fa-glass-cheers'></i>"
 

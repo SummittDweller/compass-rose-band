@@ -110,7 +110,7 @@ theme="bootstrap-bp-hugo-theme"
   [[menu.main]]
     identifier = "contact-us"
     name = "Contact Us"
-    url = "/contact-us/"
+    url = "/contact/"
     weight = 3
     pre = "<i class='far fa-envelope'></i>"
 

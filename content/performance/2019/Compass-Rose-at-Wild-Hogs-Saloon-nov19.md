@@ -15,4 +15,4 @@ publishDate: 2019-11-27
 draft: false
 ---
 
-Join Compass Rose on the 1st Monday of every month!
+Join Compass Rose on the 1st Monday of every month! Extend your weekend or cut loose after the Monday back-to-work blues with the Compass Rose Band!

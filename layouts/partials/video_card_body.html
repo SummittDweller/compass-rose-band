@@ -1,0 +1,19 @@
+{{ $customDateFormat := "02.01.2006" }}
+{{ with .Site.Params.customDateFormat }}{{ $customDateFormat = . }}{{ end }}
+
+<div class="card-body">
+  <h1 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h1>
+  <h6 class="card-subtitle mb-2 text-muted">
+    <span class="nowrap"><i class="fas fa-calendar-day"></i>&nbsp;{{ .Date.Format $customDateFormat }}</span>
+  </h6>
+  <div class="video-container">
+    <div class="video-left">
+      <video controls="true">
+        <source src="{{ .Params.mp4 }}" type="video/mp4">
+      </video>
+    </div>
+    <div class="video-right">
+      <p class="card-text">{{ .Content }}</p>
+    </div>
+  </div>
+</div>

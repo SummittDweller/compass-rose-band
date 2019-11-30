@@ -11,14 +11,35 @@
   width: 100%
 }
 
+.navbar {
+  padding: 3px 1em;
+}
+
 a {
   color: #77714f;
   text-decoration: none;
   background-color: transparent;
 }
 
-.nowrap {
+span.nowrap {
   white-space: nowrap;
+}
+
+.video-left {
+  width: 400px;
+}
+
+.video-left,
+.video-right {
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+  max-width: 50%;
+}
+
+.video-right p {
+  padding: 0 15px;
+  width: 100%;
 }
 
 h4, h3, h2,
@@ -63,6 +84,13 @@ div.card-body ul {
   -webkit-columns: 3 220px;
   -moz-columns: 3 220px;
   columns: 3 220px;
+  margin-bottom: 10px;
+}
+
+div.card-body ul.one-column {
+  -webkit-columns: 1;
+  -moz-columns: 1;
+  columns: 1;
   margin-bottom: 10px;
 }
 

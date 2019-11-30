@@ -1,3 +1,5 @@
+{{ `<!-- enter: layouts/partials/header.html -->` | safeHTML }}
+
 {{ $alwaysExpandMenu := "" }}
 {{ if and (.Site.Params.alwaysExpandMenu) (eq .Site.Params.alwaysExpandMenu true) }}
     {{ $alwaysExpandMenu = "navbar-expand-lg" }}
@@ -9,43 +11,46 @@
 {{ end }}
 
 <nav class="navbar {{ $navClasses }} {{ $alwaysExpandMenu }} border-bottom">
-    <div class="container">
-        <a class="navbar-brand text-primary" href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  <div class="container">
+    {{/* <a class="navbar-brand text-primary" href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a> */}}
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="navbar-collapse collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                {{ $currentPage := . }}
-                {{ range $index, $element := .Site.Menus.main }}
-                    {{ if .HasChildren }}
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-primary" href="#" id="dropdown{{$index}}" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">{{ .Pre }} {{ .Name }}</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown{{$index}}">
-                            {{ range .Children }}
-                                <a class="dropdown-item text-primary" href="{{ .URL }}">{{ .Pre }} {{ .Name }}</a>
-                            {{ end }}
-                            </div>
-                        </li>
-                    {{ else }}
-                        <li class="nav-item">
-                            <a class="nav-link text-primary" href="{{ .URL }}">{{ .Pre }} {{ .Name }}</a>
-                        </li>
-                    {{ end }}
-                {{ end }}
-            </ul>
-        </div>
+    <div class="navbar-collapse collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        {{ $currentPage := . }}
+        {{ range $index, $element := .Site.Menus.main }}
+          {{ if .HasChildren }}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-primary" href="#" id="dropdown{{$index}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{- partial "pre-name.html" . -}}</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown{{$index}}">
+                {{ range .Children }}
+                  <a class="dropdown-item text-primary" href="{{ .URL }}">{{- partial "pre-name.html" . -}}</a>
+                  {{ end }}
+              </div>
+            </li>
+          {{ else }}
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="{{ .URL }}">{{- partial "pre-name.html" . -}}</a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
     </div>
+  </div>
 </nav>
 
 {{ $bannerImage := .Param "bannerImage"}}
 {{ if $bannerImage }}
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
   {{ $bannerImage := (trim $bannerImage "/") | absURL }}
-  <div id="site-banner">
-    <img id="site-banner-image" src="{{ $bannerImage }}">
-  </div>
+  <a href="{{ "/" | relLangURL }}">
+    <div id="site-banner">
+      <img id="site-banner-image" src="{{ $bannerImage }}">
+    </div>
+  </a>
 {{ end }}
+
+{{ `<!-- exit: layouts/partials/header.html -->` | safeHTML }}

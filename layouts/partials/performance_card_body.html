@@ -4,7 +4,7 @@
 <div class="card-body">
     <h1 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h1>
     <h6 class="card-subtitle mb-2 text-muted">
-        <i class="fas fa-calendar-day"></i>&nbsp;{{ .Date.Format $customDateFormat }}&nbsp;&bullet;&nbsp;{{ .Params.startTime }}&nbsp;to&nbsp;{{ .Params.endTime }}
+        <span class="nowrap"><i class="fas fa-calendar-day"></i>&nbsp;{{ .Date.Format $customDateFormat }}</span> <span class="nowrap">&bullet; {{ .Params.startTime }} to {{ .Params.endTime }}</span>
     </h6>
 
     {{ if eq .Type "video" }}

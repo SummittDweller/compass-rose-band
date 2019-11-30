@@ -17,7 +17,7 @@ a {
   background-color: transparent;
 }
 
-h4,
+h4, h3, h2,
 h1.card-title,
 .text-primary {
   color: #77714f !important;
@@ -31,11 +31,24 @@ h1.card-title,
   font-size: 0.75em;
 }
 
+.welcome-image {
+  width: 100%;
+  text-align: center;
+}
+
+div.welcome-image img {
+  max-width: 100%;
+}
+
 div.two-columns {
   -webkit-columns: 2 300px;
   -moz-columns: 2 300px;
   columns: 2 300px;
   margin-bottom: 10px;
+}
+
+.card-body {
+  background-color: #eae7dd;
 }
 
 div.card-body ul {

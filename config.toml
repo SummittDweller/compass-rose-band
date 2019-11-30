@@ -81,7 +81,7 @@ theme="bootstrap-bp-hugo-theme"
 
   [[menu.main]]
     identifier = "songs"
-    name = "Songs We Play"
+    name = "Artists We Cover"
     url = "/songs/"
     weight = 15
     pre = "<i class='fas fa-music'></i>"

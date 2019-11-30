@@ -1,9 +1,9 @@
 ---
-title: Songs We Play
+title: Artists We Cover
 date: 2019-11-18
 ---
 
-We play songs from artists such as:
+We cover songs from artists such as:
 
   - America
   - The Beach Boys
@@ -47,4 +47,3 @@ We play songs from artists such as:
   - Waylon Jennings
   - Willie Nelson
   - Zac Brown
-</div>

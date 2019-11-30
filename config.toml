@@ -96,7 +96,7 @@ theme="bootstrap-bp-hugo-theme"
   [[menu.main]]
     identifier = "videos"
     name = "Videos"
-    url = "/videos/"
+    url = "/video/"
     weight = 25
     pre = "<i class='fas fa-film'></i>"
 

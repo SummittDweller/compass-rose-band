@@ -17,8 +17,25 @@ a {
   background-color: transparent;
 }
 
-.nowrap {
+span.nowrap {
   white-space: nowrap;
+}
+
+.video-left {
+  width: 400px;
+}
+
+.video-left,
+.video-right {
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+  max-width: 50%;
+}
+
+.video-right p {
+  padding: 0 15px;
+  width: 100%;
 }
 
 h4, h3, h2,

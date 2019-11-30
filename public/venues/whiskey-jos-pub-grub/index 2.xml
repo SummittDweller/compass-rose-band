@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Whiskey Jo&#39;s Pub &amp; Grub on The Compass Rose Band</title>
+    <link>https://thecompassroseband.net/venues/whiskey-jos-pub-grub/</link>
+    <description>Recent content in Whiskey Jo&#39;s Pub &amp; Grub on The Compass Rose Band</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 31 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://thecompassroseband.net/venues/whiskey-jos-pub-grub/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Whiskey Jo&#39;s New Year&#39;s Eve Party</title>
+      <link>https://thecompassroseband.net/performance/2019/whiskey-jo-new-years-eve-party/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://thecompassroseband.net/performance/2019/whiskey-jo-new-years-eve-party/</guid>
+      <description>Come out and party with the Compass Rose Band as we ring in the new year, 2020!!!</description>
+    </item>
+    
+  </channel>
+</rss>

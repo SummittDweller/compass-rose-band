@@ -23,16 +23,16 @@
                     {{ if .HasChildren }}
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-primary" href="#" id="dropdown{{$index}}" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">{{ .Pre }} {{ .Name }}</a>
+                                aria-haspopup="true" aria-expanded="false">{{- partial "pre-name.html" . -}}</a>
                             <div class="dropdown-menu" aria-labelledby="dropdown{{$index}}">
                             {{ range .Children }}
-                                <a class="dropdown-item text-primary" href="{{ .URL }}">{{ .Pre }} {{ .Name }}</a>
+                                <a class="dropdown-item text-primary" href="{{ .URL }}">{{- partial "pre-name.html" . -}}</a>
                             {{ end }}
                             </div>
                         </li>
                     {{ else }}
                         <li class="nav-item">
-                            <a class="nav-link text-primary" href="{{ .URL }}">{{ .Pre }} {{ .Name }}</a>
+                            <a class="nav-link text-primary" href="{{ .URL }}">{{- partial "pre-name.html" . -}}</a>
                         </li>
                     {{ end }}
                 {{ end }}

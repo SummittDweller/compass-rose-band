@@ -64,7 +64,7 @@
     <div class="card-footer"></div>
   </div>
 
-  {{ $paginator := .Paginate ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "not in" "['page' 'performance']") }}
+  {{ $paginator := .Paginate ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "eq" "post") }}
   {{ if .Site.Params.startPageColumns }}
     <div class="card-columns">
       {{ range $paginator.Pages }}

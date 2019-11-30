@@ -48,5 +48,12 @@ This project has a special _Dockerfile_ named `push-update-Dockerfile` and it go
   - That directory is then copied into a new _Nginx_ _Docker_ container 
   - The resulting _Docker_ image is pushed to my _DockerHub_ account
   - Watchtower_, running on the production server, keeps watch for changes in _DockerHub_ to `summittdweller/compassrose:latest`, and pulls in that image whenever changes are detected.  
-  
+
 That essentially completes a push-to-production workflow.
+
+The whole process can be run from the command-line like so:
+
+```
+cd ~/Documents/GitHub/compass-rose-band
+./push-update.sh
+```

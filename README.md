@@ -20,7 +20,7 @@ git submodule init
 git submodule update
 ```
 
-If you don't do this your submodule(s), and therefore your _Ananke_ theme, will be EMPTY!
+If you don't do this your submodule(s), and therefore your _bootstrap\_bp\_hugo\_theme_, will be EMPTY!
 
 ### Create a New Branch
 Use the following syntax to create a new local branch, and tracked upstream branch, on your workstation before you begin to make changes.
@@ -28,34 +28,25 @@ Use the following syntax to create a new local branch, and tracked upstream bran
 git checkout -b <new branch name>
 ```
 
-## Running the Local Build
-To develop a Hugo project you need Hugo running in a server mode ([Hugo Quickstart guide](https://gohugo.io/getting-started/quick-start/) for more details).
+## Developing Without Docksal
+_Docksal_ is nice, but it's really overkill when it comes to developing with _Hugo_.  All you really need is an up-to-date version of _Hugo_ installed on your host.  Then, to develop a _Hugo_ project you need _Hugo_ running in a server mode ([Hugo Quickstart guide](https://gohugo.io/getting-started/quick-start/) for more details).
 
 ```
-fin up
-fin develop
+hugo server
 ```
 
-`fin up` starts a minimal _Docksal_ stack.  `fin develop` builds and runs a Hugo server. The server will be available at `http://$VIRTUAL_HOST`.
-The site updates as you edit, reload the page to see your changes.
+`hugo server` starts a local _Hugo_ stack making the project available at [localhost:1313](http://localhost:1313).
+The site updates as you edit, you don't even have to reload the page to see your changes.
 
-**NOTE:** once started, the Hugo server will run, blocking the console. Kill it with `Ctrl-C`, when you are done.
+**NOTE:** once started, the `hugo server` will run, blocking the console. Kill it with `Ctrl-C`, when you are done.
 
-## Compiling the Static Site
+## Pushing to Production
+This project has a special _Dockerfile_ named `push-update-Dockerfile` and it goes hand-in-hand with a provided script named `push-update.sh`.  When executed from the host's project directory...
 
-```
-fin compile
-```
-
-Will re-compile static site into `public` folder. It is available at `http://static.$VIRTUAL_HOST`
-
-## Initializing - Be Very Careful!
-
-This section is at the bottom of the document for a reason...DO NOT REPEAT this, it will reset your site back to an almost empty, original state!
-| --- |
-
-```
-fin init
-```
-
-Will initialize new site, append a test content and compile the site. Your new site will be instantly available at `http://static.$VIRTUAL_HOST`
+  - The script will ensure that the current local branch of the project is checked out
+  - It runs _Hugo_ on the host to compile the project to the host's `./public` directory
+  - That directory is then copied into a new _Nginx_ _Docker_ container 
+  - The resulting _Docker_ image is pushed to my _DockerHub_ account
+  - Watchtower_, running on the production server, keeps watch for changes in _DockerHub_ to `summittdweller/compassrose:latest`, and pulls in that image whenever changes are detected.  
+  
+That essentially completes a push-to-production workflow.

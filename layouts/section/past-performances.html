@@ -8,29 +8,29 @@
         Past Performances
       </h1>
 
-      <div class="two-columns">
-        <ul class="upcoming-performances">
-          {{ range (where .Site.RegularPages.ByDate.Reverse "Type" "performance") }}
-          {{ if lt .Date.Unix now.Unix }}
-            <div class="keep-together">
-              <li>
-                <span class="performance-line-1">
-                  <a href="{{ .Permalink }}">
-                    {{ .Title }}&nbsp;-&nbsp;{{ .Date.Format "Monday," }}&nbsp;{{ .Date.Format "January" }}&nbsp;{{ .Date.Format "2" }},&nbsp;{{ .Date.Format "2006" }}</a>
-                </span>
-                <br/>
-                <span class="performance-line-2">
-                  &nbsp;&nbsp;&nbsp;&nbsp; {{ .Params.startTime }}&nbsp;to&nbsp;{{ .Params.endTime }} &bullet;&nbsp;{{ .Params.location }} &bullet;&nbsp;{{ .Params.city }}
-                </span>
-              </li>
-            </div>
-            {{ end }}
+      <ul class="upcoming-performances">
+        {{ range (where .Site.RegularPages.ByDate.Reverse "Type" "performance") }}
+        {{ if lt .Date.Unix now.Unix }}
+          <div class="keep-together">
+            <li class="performance">
+              <span class="performance-line-1">
+                <a href="{{ .Permalink }}">
+                  {{ .Title }} - <span class="nowrap">{{ .Date.Format "Monday, January 2, 2006" }}</span></a>
+              </span>
+              <br/>
+              <span class="performance-line-2">
+                &nbsp;&nbsp; <span class="nowrap">{{ .Params.startTime }} to {{ .Params.endTime }}</span> <span class="nowrap">&bullet; {{ .Params.location }}</span> <span class="nowrap">&bullet; {{ .Params.city }}</span>
+              </span>
+            </li>
+          </div>
           {{ end }}
-        </ul>
-      </div>
-    </div>
-    <div class="card-footer"></div>
+        {{ end }}
+      </ul>
   </div>
+
+  <div class="card-footer"></div>
+
+</div>
 
 
 

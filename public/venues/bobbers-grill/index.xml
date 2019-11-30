@@ -1,1 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bobbers Grill on The Compass Rose Band</title><link>https://thecompassroseband.net/venues/bobbers-grill/</link><description>Recent content in Bobbers Grill on The Compass Rose Band</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://thecompassroseband.net/venues/bobbers-grill/index.xml" rel="self" type="application/rss+xml"/><item><title>Compass Rose at Bobbers Grill</title><link>https://thecompassroseband.net/performance/2020/compass-rose-at-bobbers-grill-aug/</link><pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate><guid>https://thecompassroseband.net/performance/2020/compass-rose-at-bobbers-grill-aug/</guid><description>Join the Compass Rose Band as we party by the lake!</description></item><item><title>Compass Rose at Bobbers Grill</title><link>https://thecompassroseband.net/performance/2020/compass-rose-at-bobbers-grill/</link><pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate><guid>https://thecompassroseband.net/performance/2020/compass-rose-at-bobbers-grill/</guid><description>Join the Compass Rose Band as we party by the lake!</description></item><item><title>Bobbers Grill</title><link>https://thecompassroseband.net/performance/2015/bobbers-grill/</link><pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate><guid>https://thecompassroseband.net/performance/2015/bobbers-grill/</guid><description>Open to the public. No cover charge. Camping available at Scales Point Marina.</description></item><item><title>Compass Rose at Bobbers Grill</title><link>https://thecompassroseband.net/performance/2014/compass-rose-at-bobbers-grill-aug2014/</link><pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate><guid>https://thecompassroseband.net/performance/2014/compass-rose-at-bobbers-grill-aug2014/</guid><description/></item><item><title>Compass Rose at Bobbers Grill</title><link>https://thecompassroseband.net/performance/2014/compass-rose-at-bobbers-grill-june2014/</link><pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate><guid>https://thecompassroseband.net/performance/2014/compass-rose-at-bobbers-grill-june2014/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bobbers Grill on The Compass Rose Band</title>
+    <link>https://thecompassroseband.net/venues/bobbers-grill/</link>
+    <description>Recent content in Bobbers Grill on The Compass Rose Band</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://thecompassroseband.net/venues/bobbers-grill/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Compass Rose at Bobbers Grill</title>
+      <link>https://thecompassroseband.net/performance/2020/compass-rose-at-bobbers-grill-aug/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thecompassroseband.net/performance/2020/compass-rose-at-bobbers-grill-aug/</guid>
+      <description>Join the Compass Rose Band as we party by the lake!</description>
+    </item>
+    
+    <item>
+      <title>Compass Rose at Bobbers Grill</title>
+      <link>https://thecompassroseband.net/performance/2020/compass-rose-at-bobbers-grill/</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thecompassroseband.net/performance/2020/compass-rose-at-bobbers-grill/</guid>
+      <description>Join the Compass Rose Band as we party by the lake!</description>
+    </item>
+    
+    <item>
+      <title>Bobbers Grill</title>
+      <link>https://thecompassroseband.net/performance/2015/bobbers-grill/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://thecompassroseband.net/performance/2015/bobbers-grill/</guid>
+      <description>Open to the public. No cover charge. Camping available at Scales Point Marina.</description>
+    </item>
+    
+    <item>
+      <title>Compass Rose at Bobbers Grill</title>
+      <link>https://thecompassroseband.net/performance/2014/compass-rose-at-bobbers-grill-aug2014/</link>
+      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://thecompassroseband.net/performance/2014/compass-rose-at-bobbers-grill-aug2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compass Rose at Bobbers Grill</title>
+      <link>https://thecompassroseband.net/performance/2014/compass-rose-at-bobbers-grill-june2014/</link>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://thecompassroseband.net/performance/2014/compass-rose-at-bobbers-grill-june2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

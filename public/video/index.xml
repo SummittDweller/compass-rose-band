@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Videos on The Compass Rose Band</title><link>https://thecompassroseband.net/video/</link><description>Recent content in Videos on The Compass Rose Band</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 10 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://thecompassroseband.net/video/index.xml" rel="self" type="application/rss+xml"/><item><title>Rocking the Block at Newbo - August 2019</title><link>https://thecompassroseband.net/video/2019/rocking-the-block-at-newbo-august-2019/</link><pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate><guid>https://thecompassroseband.net/video/2019/rocking-the-block-at-newbo-august-2019/</guid><description>The CRB performing at Rockin&amp;rsquo; the Block - Newbo City Market in August 2019.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Videos on The Compass Rose Band</title>
+    <link>https://thecompassroseband.net/video/</link>
+    <description>Recent content in Videos on The Compass Rose Band</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 10 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://thecompassroseband.net/video/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rocking the Block at Newbo - August 2019</title>
+      <link>https://thecompassroseband.net/video/2019/rocking-the-block-at-newbo-august-2019/</link>
+      <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://thecompassroseband.net/video/2019/rocking-the-block-at-newbo-august-2019/</guid>
+      <description>The CRB performing at Rockin&amp;rsquo; the Block - Newbo City Market in August 2019.</description>
+    </item>
+    
+  </channel>
+</rss>

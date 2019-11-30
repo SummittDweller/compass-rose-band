@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Popoli Ristorante &amp; Sullivan&#39;s Bar on The Compass Rose Band</title><link>https://thecompassroseband.net/venues/popoli-ristorante-sullivans-bar/</link><description>Recent content in Popoli Ristorante &amp; Sullivan&#39;s Bar on The Compass Rose Band</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 04 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://thecompassroseband.net/venues/popoli-ristorante-sullivans-bar/index.xml" rel="self" type="application/rss+xml"/><item><title>Private Party</title><link>https://thecompassroseband.net/performance/2017/private-party-aug/</link><pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate><guid>https://thecompassroseband.net/performance/2017/private-party-aug/</guid><description>Black and Gold Study Group, end of the year party.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Popoli Ristorante &amp; Sullivan&#39;s Bar on The Compass Rose Band</title>
+    <link>https://thecompassroseband.net/venues/popoli-ristorante-sullivans-bar/</link>
+    <description>Recent content in Popoli Ristorante &amp; Sullivan&#39;s Bar on The Compass Rose Band</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 04 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://thecompassroseband.net/venues/popoli-ristorante-sullivans-bar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Private Party</title>
+      <link>https://thecompassroseband.net/performance/2017/private-party-aug/</link>
+      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://thecompassroseband.net/performance/2017/private-party-aug/</guid>
+      <description>Black and Gold Study Group, end of the year party.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rumors Bar on The Compass Rose Band</title><link>https://thecompassroseband.net/venues/rumors-bar/</link><description>Recent content in Rumors Bar on The Compass Rose Band</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 21 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://thecompassroseband.net/venues/rumors-bar/index.xml" rel="self" type="application/rss+xml"/><item><title>Rumors Bar</title><link>https://thecompassroseband.net/performance/2019/rumors-bar/</link><pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate><guid>https://thecompassroseband.net/performance/2019/rumors-bar/</guid><description>Replace this text with your performance content. You can use Markdown here.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rumors Bar on The Compass Rose Band</title>
+    <link>https://thecompassroseband.net/venues/rumors-bar/</link>
+    <description>Recent content in Rumors Bar on The Compass Rose Band</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 21 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://thecompassroseband.net/venues/rumors-bar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rumors Bar</title>
+      <link>https://thecompassroseband.net/performance/2019/rumors-bar/</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://thecompassroseband.net/performance/2019/rumors-bar/</guid>
+      <description>Replace this text with your performance content. You can use Markdown here.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -15,7 +15,11 @@
             <li class="performance">
               <span class="performance-line-1">
                 <a href="{{ .Permalink }}">
-                  {{ .Title }} - <span class="nowrap">{{ .Date.Format "Monday, January 2, 2006" }}</span></a>
+                  {{ if eq .Date.Year now.Year }}
+                    {{ .Title }} <span class="nowrap">- {{ .Date.Format "Monday, Jan 2" }}</span></a>
+                  {{ else }}
+                    {{ .Title }} <span class="nowrap">- {{ .Date.Format "Monday, Jan 2, 2006" }}</span></a>
+                  {{ end }}
               </span>
               <br/>
               <span class="performance-line-2">

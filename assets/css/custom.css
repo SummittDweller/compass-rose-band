@@ -11,6 +11,10 @@
   width: 100%
 }
 
+.navbar {
+  padding: 3px 1em;
+}
+
 a {
   color: #77714f;
   text-decoration: none;

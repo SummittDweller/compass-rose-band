@@ -1,3 +1,5 @@
+{{ `<!-- enter: layouts/partials/header.html -->` | safeHTML }}
+
 {{ $alwaysExpandMenu := "" }}
 {{ if and (.Site.Params.alwaysExpandMenu) (eq .Site.Params.alwaysExpandMenu true) }}
     {{ $alwaysExpandMenu = "navbar-expand-lg" }}
@@ -48,5 +50,7 @@
     <div id="site-banner">
       <img id="site-banner-image" src="{{ $bannerImage }}">
     </div>
-  </a>  
+  </a>
 {{ end }}
+
+{{ `<!-- exit: layouts/partials/header.html -->` | safeHTML }}

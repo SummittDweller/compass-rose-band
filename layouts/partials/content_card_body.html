@@ -1,3 +1,5 @@
+{{ `<!-- enter: layouts/partials/content_card_body.html -->` | safeHTML }}
+
 {{ $customDateFormat := "02.01.2006" }}
 {{ with .Site.Params.customDateFormat }}{{ $customDateFormat = . }}{{ end }}
 
@@ -35,3 +37,5 @@
         <p class="card-text">{{ .Content }}</p>
     {{ end }}
 </div>
+
+{{ `<!-- exit: layouts/partials/content_card_body.html -->` | safeHTML }}

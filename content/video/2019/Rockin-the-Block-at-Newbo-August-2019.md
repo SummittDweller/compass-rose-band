@@ -1,10 +1,10 @@
 ---
-title: "Rocking the Block at Newbo - August 2019"
+title: "Rockin' the Block at Newbo - August 2019"
 type: video
 mp4: /video/crb-rocking-the-block.mp4
 lastMod: 2019-11-30
 date: 2019-08-10
-location: "Rocking the Block at Newbo - August 2019"
+location: "Rockin' the Block at Newbo - August 2019"
 city: "Cedar Rapids, IA"
 venues:
   - "Cedar Rapids"

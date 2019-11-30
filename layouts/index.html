@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ `<!-- enter: layouts/index.html -->` | safeHTML }}
 
 <div class="container mt-3 mb-3">
   <div class="card">
@@ -82,4 +83,5 @@
   {{ template "_internal/pagination.html" . }}
 </div>
 
+{{ `<!-- exit: layouts/index.html -->` | safeHTML }}
 {{ end }}

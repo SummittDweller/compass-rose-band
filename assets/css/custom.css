@@ -17,10 +17,18 @@ a {
   background-color: transparent;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 h4, h3, h2,
 h1.card-title,
 .text-primary {
   color: #77714f !important;
+}
+
+.card-title {
+  border-bottom: 1px solid #77714f;
 }
 
 .performance-line-1 {
@@ -52,21 +60,25 @@ div.two-columns {
 }
 
 div.card-body ul {
-  -webkit-columns: 3 200px;
-  -moz-columns: 3 200px;
-  columns: 3 200px;
+  -webkit-columns: 3 220px;
+  -moz-columns: 3 220px;
+  columns: 3 220px;
   margin-bottom: 10px;
 }
 
 div.three-columns ul {
-  -webkit-columns: 3 200px;
-  -moz-columns: 3 200px;
-  columns: 3 200px;
+  -webkit-columns: 3 220px;
+  -moz-columns: 3 220px;
+  columns: 3 220px;
   margin-bottom: 10px;
 }
 
 div.keep-together {
   display: inline-block;
+}
+
+li.performance {
+  margin-right: 5px;
 }
 
 div.form-field {

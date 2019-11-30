@@ -87,6 +87,13 @@ div.card-body ul {
   margin-bottom: 10px;
 }
 
+div.card-body ul.one-column {
+  -webkit-columns: 1;
+  -moz-columns: 1;
+  columns: 1;
+  margin-bottom: 10px;
+}
+
 div.three-columns ul {
   -webkit-columns: 3 220px;
   -moz-columns: 3 220px;

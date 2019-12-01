@@ -1,4 +1,3 @@
-
 This is the docker-bootstrap config file for https://compassroseband.net. My docker-bootstrap Workflow post describes the server setup too.
 
 Note that `baseURL=compassroseband.net` in the project's `config.toml` file.
@@ -14,6 +13,7 @@ docker container run -d --name ${NAME} \
     --label traefik.port=80 \
     --label "traefik.frontend.redirect.regex=https://(www.)?(${HOST})(.+)" \
     --label "traefik.frontend.redirect.replacement=https://compassroseband.net$3" \
+    --label "traefik.frontend.redirect.permanent=true" \
     --label com.centurylinklabs.watchtower.enable=true \
     --network opt_webgateway \
     --restart always \

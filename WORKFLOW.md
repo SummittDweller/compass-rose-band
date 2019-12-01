@@ -11,8 +11,8 @@ docker container run -d --name ${NAME} \
     --label traefik.backend=${NAME} \
     --label traefik.docker.network=opt_webgateway \
     --label traefik.port=80 \
-    --label "traefik.frontend.redirect.regex=https://(www.)?(${HOST})(.+)" \
-    --label "traefik.frontend.redirect.replacement=https://compassroseband.net$3" \
+    --label "traefik.frontend.redirect.regex=^http(s)?://(www.)?(${HOST})(.+)" \
+    --label "traefik.frontend.redirect.replacement=https://compassroseband.net$4" \
     --label "traefik.frontend.redirect.permanent=true" \
     --label com.centurylinklabs.watchtower.enable=true \
     --network opt_webgateway \
@@ -22,9 +22,11 @@ docker container run -d --name ${NAME} \
 See https://github.com/containous/traefik/issues/2796
 
 Below NOT working with multiple domains...
+  HOST="compassroseband.net"
     --label "traefik.frontend.rule=Host:${HOST}" \
 
 Replaced above with this for multiple domains...
-    --label "traefik.frontend.redirect.regex=https://(www.)?(${HOST})(.+)" \
-    --label "traefik.frontend.redirect.replacement=https://compassroseband.net$3" \
-    --label "traefik.frontend.redirect.permanent=true" \
+  HOST="compassroseband.net|thecompassroseband.net|thecompassroseband.com"
+  --label "traefik.frontend.redirect.regex=^http(s)?://(www.)?(${HOST})(.+)" \
+  --label "traefik.frontend.redirect.replacement=https://compassroseband.net$4" \
+  --label "traefik.frontend.redirect.permanent=true" \

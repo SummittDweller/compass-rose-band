@@ -5,7 +5,7 @@ This is the docker-bootstrap config file for https://thecompassroseband.net. My 
 Run the following ONE time on the host...
 
 NAME=compassrose
-HOST=thecompassroseband.net
+HOST=compassroseband.net,thecompassroseband.net,thecompassroseband.com
 IMAGE="summittdweller/compassrose"
 docker container run -d --name ${NAME} \
     --label traefik.backend=${NAME} \

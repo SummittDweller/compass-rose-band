@@ -15,8 +15,8 @@
         {{ end }}
     </h6>
 
-    {{ if eq .Type "video" }}
-    {{ else if eq .Type "audio" }}
+    {{/* if eq .Type "video" */}}
+    {{ if eq .Type "audio" }}
     {{ else if eq .Type "link" }}
         <p class="text-center"><a href="{{ .Params.link }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg" tabindex="-1" role="button"><i class="fas fa-link"></i>&nbsp;{{ .Title }}</a></p>
     {{ else if eq .Type "quote" }}

@@ -25,16 +25,22 @@ span.nowrap {
   white-space: nowrap;
 }
 
+.video-window {
+  max-width: 100%;
+  text-align: center;
+  max-height: 500px;
+}
+
 .video-left {
-  width: 400px;
+  width: 100%;
+  text-align: center;
 }
 
 .video-left,
 .video-right {
-  display: inline-block;
+  display: block;
   white-space: normal;
   vertical-align: top;
-  max-width: 50%;
 }
 
 .video-right p {

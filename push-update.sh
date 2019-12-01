@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ~/Documents/GitHub/compass-rose-band
+cd ~/Projects/GitHub/compass-rose-band
 current=`git symbolic-ref --short -q HEAD`
 git checkout ${current}
 # compile the site before copying to the new image

@@ -1,10 +1,9 @@
-ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*"]
 baseURL = "https://thecompassroseband.net/"
-#baseURL = "http://localhost:8080/"
 title = "The Compass Rose Band"
 # author = "Steve Francia"
 # copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
 # paginate = 3
+# ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*"]
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -17,7 +16,7 @@ footnoteReturnLinkContents = "^"
 enableRobotsTXT = true
 pygmentsCodeFences = true
 canonifyurls = true
-paginate = 6
+# paginate = 10
 theme="bootstrap-bp-hugo-theme"
 
 [sitemap]

@@ -1,7 +1,7 @@
 {{ define "main" }}
 
   <div class="container mt-3 mb-3">
-    {{ range (where .Site.RegularPages.ByDate.Reverse "Type" "video") }}
+    {{ range (where .RegularPages.ByDate.Reverse "Type" "video") }}
       {{- partial "video_card_body.html" . -}}
     {{ end }}
   </div>

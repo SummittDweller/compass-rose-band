@@ -30,3 +30,57 @@ Replaced above with this for multiple domains...
   --label "traefik.frontend.redirect.regex=^http(s)?://(www.)?(${HOST})(.+)" \
   --label "traefik.frontend.redirect.replacement=https://compassroseband.net$4" \
   --label "traefik.frontend.redirect.permanent=true" \
+
+Since multiple domains do not working in the above configurations, I'm going to try creating three identical images, each with it's own unique address.  Then I will use the three-pronged script below to engage the images, and also add a new `store.compassroseband.net` address to the server while I am at it.
+
+NAME=compassrose1
+HOST="compassroseband.net"
+IMAGE="summittdweller/compassrose1"
+docker container run -d --name ${NAME} \
+    --label traefik.backend=${NAME} \
+    --label traefik.docker.network=opt_webgateway \
+    --label traefik.port=80 \
+    --label "traefik.frontend.rule=Host:${HOST}" \
+    --label com.centurylinklabs.watchtower.enable=true \
+    --network opt_webgateway \
+    --restart always \
+    ${IMAGE}
+
+NAME=compassrose2
+HOST="thecompassroseband.net"
+IMAGE="summittdweller/compassrose2"
+docker container run -d --name ${NAME} \
+    --label traefik.backend=${NAME} \
+    --label traefik.docker.network=opt_webgateway \
+    --label traefik.port=80 \
+    --label "traefik.frontend.rule=Host:${HOST}" \
+    --label com.centurylinklabs.watchtower.enable=true \
+    --network opt_webgateway \
+    --restart always \
+    ${IMAGE}
+
+NAME=compassrose3
+HOST="thecompassroseband.com"
+IMAGE="summittdweller/compassrose3"
+docker container run -d --name ${NAME} \
+    --label traefik.backend=${NAME} \
+    --label traefik.docker.network=opt_webgateway \
+    --label traefik.port=80 \
+    --label "traefik.frontend.rule=Host:${HOST}" \
+    --label com.centurylinklabs.watchtower.enable=true \
+    --network opt_webgateway \
+    --restart always \
+    ${IMAGE}
+
+NAME=compass-rose-store
+HOST="store.compassroseband.net"
+IMAGE="summittdweller/compass-rose-store"
+docker container run -d --name ${NAME} \
+    --label traefik.backend=${NAME} \
+    --label traefik.docker.network=opt_webgateway \
+    --label traefik.port=80 \
+    --label "traefik.frontend.rule=Host:${HOST}" \
+    --label com.centurylinklabs.watchtower.enable=true \
+    --network opt_webgateway \
+    --restart always \
+    ${IMAGE}

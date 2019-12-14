@@ -131,3 +131,7 @@ div.form-field textarea {
 input.form-submit {
   margin: 5px 15px;
 }
+
+div.card-image img {
+  text-align: center;
+}

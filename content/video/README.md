@@ -1,0 +1,1 @@
+Videos should be opened in _QuickTime_ and exported as **480p** for proper size, then save the converted **.mov** file to https://images-summittdweller.nyc3.digitaloceanspaces.com/CRB-Videos/ in my _DigitalOcean_ _Spaces_.

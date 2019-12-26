@@ -45,9 +45,9 @@ This project has a special _Dockerfile_ named `push-update-Dockerfile` and it go
 
   - The script will ensure that the current local branch of the project is checked out
   - It runs _Hugo_ on the host to compile the project to the host's `./public` directory
-  - That directory is then copied into a new _Nginx_ _Docker_ container 
+  - That directory is then copied into a new _Nginx_ _Docker_ container
   - The resulting _Docker_ image is pushed to my _DockerHub_ account
-  - Watchtower_, running on the production server, keeps watch for changes in _DockerHub_ to `summittdweller/compassrose:latest`, and pulls in that image whenever changes are detected.  
+  - Watchtower_, running on the production server, keeps watch for changes in _DockerHub_ to `summittdweller/compassrose:latest`, and pulls in that image whenever changes are detected.
 
 That essentially completes a push-to-production workflow.
 
@@ -57,3 +57,6 @@ The whole process can be run from the command-line like so:
 cd ~/Documents/GitHub/compass-rose-band
 ./push-update.sh
 ```
+
+## Videos
+Videos should be opened in _QuickTime_ and exported as **480p** for proper size, then save the converted **.mov** file to https://images-summittdweller.nyc3.digitaloceanspaces.com/CRB-Videos/ in my _DigitalOcean_ _Spaces_.

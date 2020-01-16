@@ -9,13 +9,13 @@ HOST="compassroseband.net|thecompassroseband.net|thecompassroseband.com"
 IMAGE="summittdweller/compassrose"
 docker container run -d --name ${NAME} \
     --label traefik.backend=${NAME} \
-    --label traefik.docker.network=opt_webgateway \
+    --label traefik.docker.network=web \
     --label traefik.port=80 \
     --label "traefik.frontend.redirect.regex=^http(s)?://(www.)?(${HOST})(.+)" \
     --label "traefik.frontend.redirect.replacement=https://compassroseband.net$4" \
     --label "traefik.frontend.redirect.permanent=true" \
     --label com.centurylinklabs.watchtower.enable=true \
-    --network opt_webgateway \
+    --network web \
     --restart always \
     ${IMAGE}
 
@@ -38,11 +38,11 @@ HOST="compassroseband.net"
 IMAGE="summittdweller/compassrose1"
 docker container run -d --name ${NAME} \
     --label traefik.backend=${NAME} \
-    --label traefik.docker.network=opt_webgateway \
+    --label traefik.docker.network=web \
     --label traefik.port=80 \
     --label "traefik.frontend.rule=Host:${HOST}" \
     --label com.centurylinklabs.watchtower.enable=true \
-    --network opt_webgateway \
+    --network web \
     --restart always \
     ${IMAGE}
 
@@ -51,11 +51,11 @@ HOST="thecompassroseband.net"
 IMAGE="summittdweller/compassrose2"
 docker container run -d --name ${NAME} \
     --label traefik.backend=${NAME} \
-    --label traefik.docker.network=opt_webgateway \
+    --label traefik.docker.network=web \
     --label traefik.port=80 \
     --label "traefik.frontend.rule=Host:${HOST}" \
     --label com.centurylinklabs.watchtower.enable=true \
-    --network opt_webgateway \
+    --network web \
     --restart always \
     ${IMAGE}
 
@@ -64,11 +64,11 @@ HOST="thecompassroseband.com"
 IMAGE="summittdweller/compassrose3"
 docker container run -d --name ${NAME} \
     --label traefik.backend=${NAME} \
-    --label traefik.docker.network=opt_webgateway \
+    --label traefik.docker.network=web \
     --label traefik.port=80 \
     --label "traefik.frontend.rule=Host:${HOST}" \
     --label com.centurylinklabs.watchtower.enable=true \
-    --network opt_webgateway \
+    --network web \
     --restart always \
     ${IMAGE}
 
@@ -77,10 +77,10 @@ HOST="store.compassroseband.net"
 IMAGE="summittdweller/compass-rose-store"
 docker container run -d --name ${NAME} \
     --label traefik.backend=${NAME} \
-    --label traefik.docker.network=opt_webgateway \
+    --label traefik.docker.network=web \
     --label traefik.port=80 \
     --label "traefik.frontend.rule=Host:${HOST}" \
     --label com.centurylinklabs.watchtower.enable=true \
-    --network opt_webgateway \
+    --network web \
     --restart always \
     ${IMAGE}

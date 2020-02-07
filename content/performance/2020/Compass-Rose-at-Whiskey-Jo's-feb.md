@@ -3,8 +3,8 @@ title: "Compass Rose at Whiskey Jo's"
 type: performance
 lastMod: 2019-12-25T19:17:22-06:00
 date: 2020-02-07
-startTime: "8:00pm"
-endTime: "12:00am"
+startTime: "7:00pm"
+endTime: "11:00pm"
 location: "Whiskey Jo's Pub & Grub"
 city: "Cedar Rapids, IA"
 venues:

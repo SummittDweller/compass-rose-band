@@ -4,7 +4,7 @@ type: performance
 lastMod: 2020-01-18T11:41:22-06:00
 date: 2020-07-25
 startTime: "6pm"
-endTime: "9pm"
+endTime: "10pm"
 location: "7900 Wildwood Lane"
 city: "Toddville, IA"
 venues:

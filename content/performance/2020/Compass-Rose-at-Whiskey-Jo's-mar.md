@@ -12,7 +12,7 @@ venues:
   - Cedar Rapids
 description: "This text doesn't appear anywhere...yet"
 publishDate: 2019-12-25
-draft: false
+draft: true
 ---
 
-Come out and party with the Compass Rose Band!
+CANCELED. Come out and party with the Compass Rose Band!

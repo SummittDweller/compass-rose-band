@@ -12,7 +12,7 @@ venues:
   - Walford
 description: "Text about this post"
 publishDate: 2019-11-27
-draft: false
+draft: true
 ---
 
-Join Compass Rose on the 1st Monday of every month!
+CANCELED. Join Compass Rose on the 1st Monday of every month!

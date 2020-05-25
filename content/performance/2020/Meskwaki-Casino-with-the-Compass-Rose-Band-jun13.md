@@ -12,7 +12,7 @@ venues:
   - Tama
 description: "Text about this post"
 publishDate: 2019-11-27
-draft: false
+draft: true
 ---
 
 Join us as we return for our sixth year of performing at the _Meskwaki Casino_ in Tama, IA!

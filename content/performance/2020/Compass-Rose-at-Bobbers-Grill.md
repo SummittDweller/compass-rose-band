@@ -3,8 +3,8 @@ title: "Compass Rose at Bobbers Grill"
 type: performance
 lastMod: 2019-11-28T21:35:32-06:00
 date: 2020-05-30
-startTime: "6pm"
-endTime: "10pm"
+startTime: "4pm"
+endTime: "8pm"
 location: "Bobbers Grill"
 city: "North Liberty, IA"
 venues:

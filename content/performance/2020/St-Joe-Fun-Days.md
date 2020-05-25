@@ -12,7 +12,7 @@ venues:
   - Marion
 description: "Text about this post"
 publishDate: 2019-11-27
-draft: false
+draft: true
 ---
 
 The **Compass Rose Band** returns for a second year at the always FUN, _St. Joe's Fun Days_. We will play under the huge beer tent, rain or shine!

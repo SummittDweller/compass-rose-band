@@ -34,7 +34,7 @@ theme="bootstrap-bp-hugo-theme"
 
 [params]
   bannerImage = "/images/banner1.jpg"
-  description = "My funcle is the lead singer!"
+  description = "Stay safe, stay healthy!"
   #images = ["logo.jpg"]
   # showPostSummary = true
   # startPageColumns = true

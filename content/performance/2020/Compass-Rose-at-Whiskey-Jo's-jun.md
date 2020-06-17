@@ -1,7 +1,7 @@
 ---
 title: "Compass Rose at Whiskey Jo's"
 type: performance
-lastMod: 2019-12-25T19:17:22-06:00
+lastMod: 2020-06-16T19:17:22-06:00
 date: 2020-06-19
 startTime: "7:00pm"
 endTime: "11:00pm"
@@ -12,7 +12,7 @@ venues:
   - Cedar Rapids
 description: "This text doesn't appear anywhere...yet"
 publishDate: 2019-12-25
-draft: false
+draft: true
 ---
 
 Come out and party with the Compass Rose Band!

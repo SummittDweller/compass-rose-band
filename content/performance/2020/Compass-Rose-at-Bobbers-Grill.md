@@ -2,7 +2,7 @@
 title: "Compass Rose at Bobbers Grill"
 type: performance
 lastMod: 2020-06-216T21:35:32-06:00
-date: 2020-07-27
+date: 2020-06-27
 startTime: "5pm"
 endTime: "9pm"
 location: "Bobbers Grill"

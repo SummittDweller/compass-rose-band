@@ -13,7 +13,7 @@ venues:
 description: "Text about this post"
 publishDate: 2019-11-29
 lastMod: 2019-11-29
-draft: false
+draft: true
 ---
 
 Free 'Music in the Park' celebration.  Bring your lawn chairs and enjoy!

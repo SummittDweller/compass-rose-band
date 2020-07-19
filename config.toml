@@ -34,7 +34,7 @@ theme="bootstrap-bp-hugo-theme"
 
 [params]
   bannerImage = "/images/banner1.jpg"
-  description = "Stay safe, stay healthy!"
+  description = "Keep checking back here for updates during the pandemic."
   #images = ["logo.jpg"]
   # showPostSummary = true
   # startPageColumns = true

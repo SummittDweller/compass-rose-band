@@ -10,7 +10,8 @@ city: "Cedar Rapids, IA"
 venues:
   - Cedar Rapids
   - Metro Harley Can-Am
-description: "The venue is at 2415 Westdale Dr. SW, Cedar Rapids, 52404"
 publishDate: 2020-01-06
 draft: false
 ---
+
+The venue is at 2415 Westdale Dr. SW, Cedar Rapids, 52404

@@ -3,8 +3,8 @@ title: "Compass Rose at Sutliff Cider"
 type: performance
 lastMod: 2020-07-28T09:17:22-06:00
 date: 2020-08-02
-startTime: "3:00pm"
-endTime: "6:00pm"
+startTime: "3pm"
+endTime: "6pm"
 location: "Sutliff Cider"
 city: "Lisbon, IA"
 venues:

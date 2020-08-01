@@ -44,7 +44,7 @@
         </h2>
         <ul class="upcoming-performances">
           {{ range (where .Site.RegularPages.ByDate "Type" "performance") }}
-          {{ if ge .Date.Unix now.Unix }}
+          {{ if .Date.After (now.AddDate 0 0 -1) }}  <!-- only dates after yesterday -->
             <div class="keep-together">
               <li class="performance">
                 <span class="performance-line-1">

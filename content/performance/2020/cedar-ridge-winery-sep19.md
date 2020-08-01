@@ -10,6 +10,7 @@ city: "Swisher, IA"
 venues:
   - "Swisher"
   - "Cedar Ridge Winery"
+publishDate: 2020-08-01
 description: "Text about this post"
 draft: false
 ---

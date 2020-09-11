@@ -2,6 +2,22 @@
 {{ `<!-- enter: layouts/index.html -->` | safeHTML }}
 
 <div class="container mt-3 mb-3">
+
+  {{ $file := "/static/announcement.md" }}
+  {{ if (fileExists $file) -}}
+    <div class="announcement-card">
+      <div class="card-body">
+        <h1 class="card-title">
+          Attention!
+        </h1>
+        <div class="announcement">
+          {{ $file | readFile | markdownify }}
+          {{/* (print $file "\n") | markdownify */}}
+        </div>
+      </div>
+    </div>
+  {{- end }}
+
   <div class="card">
     <div class="card-body">
       <h1 class="card-title">

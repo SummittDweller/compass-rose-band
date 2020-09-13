@@ -3,7 +3,7 @@
 
 <div class="container mt-3 mb-3">
 
-  {{ $file := "/static/announcement.md" }}
+  {{ $file := "/announcement.md" }}
   {{ if (fileExists $file) -}}
     <div class="announcement-card">
       <div class="card-body">
@@ -12,7 +12,6 @@
         </h1>
         <div class="announcement">
           {{ $file | readFile | markdownify }}
-          {{/* (print $file "\n") | markdownify */}}
         </div>
       </div>
     </div>

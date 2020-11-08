@@ -58,27 +58,32 @@
           Upcoming Performances
         </h2>
         <ul class="upcoming-performances">
+          {{ $counter := 0 }}
           {{ range (where .Site.RegularPages.ByDate "Type" "performance") }}
-          {{ if .Date.After (now.AddDate 0 0 -1) }}  <!-- only dates after yesterday -->
-            <div class="keep-together">
-              <li class="performance">
-                <span class="performance-line-1">
-                  <a href="{{ .Permalink }}">
-                    {{ if eq .Date.Year now.Year }}
-                      {{ .Title }} <span class="nowrap">- {{ .Date.Format "Monday, Jan 2" }}</span></a>
-                    {{ else }}
-                      {{ .Title }} <span class="nowrap">- {{ .Date.Format "Monday, Jan 2, 2006" }}</span></a>
-                    {{ end }}
-                </span>
-                <br/>
-                <span class="performance-line-2">
-                  &nbsp;&nbsp; <span class="nowrap">{{ .Params.startTime }} to {{ .Params.endTime }}</span> <span class="nowrap">&bullet; {{ .Params.location }}</span> <span class="nowrap">&bullet; {{ .Params.city }}</span>
-                </span>
-              </li>
-            </div>
-          {{ end }}
+            {{ if .Date.After (now.AddDate 0 0 -1) }}  <!-- only dates after yesterday -->
+              {{ $counter = add $counter 1 }}
+              <div class="keep-together">
+                <li class="performance">
+                  <span class="performance-line-1">
+                    <a href="{{ .Permalink }}">
+                      {{ if eq .Date.Year now.Year }}
+                        {{ .Title }} <span class="nowrap">- {{ .Date.Format "Monday, Jan 2" }}</span></a>
+                      {{ else }}
+                        {{ .Title }} <span class="nowrap">- {{ .Date.Format "Monday, Jan 2, 2006" }}</span></a>
+                      {{ end }}
+                  </span>
+                  <br/>
+                  <span class="performance-line-2">
+                    &nbsp;&nbsp; <span class="nowrap">{{ .Params.startTime }} to {{ .Params.endTime }}</span> <span class="nowrap">&bullet; {{ .Params.location }}</span> <span class="nowrap">&bullet; {{ .Params.city }}</span>
+                  </span>
+                </li>
+              </div>
+            {{ end }}
         {{ end }}
       </ul>
+      {{ if eq $counter 0 }}
+        <p>Sorry, this list is currently empty. Please check back often for an updated list of future shows.</p>
+      {{ end }}
     </div>
     <div class="card-footer"></div>
   </div>

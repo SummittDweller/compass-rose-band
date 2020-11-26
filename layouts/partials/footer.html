@@ -36,6 +36,13 @@
             </div>
         </div>
     </div>
+
+    <hr/>
+    
+    <div class="build-info">
+      <p><span>Content Updated: {{ .Site.LastChange.Format "Jan 2, 2006 at 3:04pm MST" | markdownify }} &bullet; Compiled: {{ now.Format "Jan 2, 2006 at 3:04pm MST" | markdownify }}<span></p>
+    </div>
+
 </footer>
 
 {{ `<!-- exit: layouts/partials/footer.html -->` | safeHTML }}

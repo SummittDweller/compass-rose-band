@@ -136,3 +136,8 @@ div.announcement-card {
   border: 5px solid orange;
   margin-bottom: 1em;
 }
+
+div.build-info {
+  font-size: smaller;
+  text-align: center;
+}

@@ -1,7 +1,7 @@
-baseURL = "https://compassroseband.net/"
+# baseURL = "https://compassroseband.net/"
 title = "The Compass Rose Band"
-# author = "Steve Francia"
-# copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+author = "Mackenzie McFate"
+copyright = "Copyright © 2018–2020, Mackenzie McFate and the Hugo Authors; all rights reserved."
 # paginate = 3
 # ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*"]
 languageCode = "en"

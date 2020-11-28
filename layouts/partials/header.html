@@ -44,8 +44,8 @@
 
 {{ $bannerImage := .Param "bannerImage"}}
 {{ if $bannerImage }}
-  {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-  {{ $bannerImage := (trim $bannerImage "/") | absURL }}
+  {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives... or does it?  MAM 28-Nov-2020 */}}
+  {{/* $bannerImage := (trim $bannerImage "/") | absURL */}}
   <a href="{{ "/" | relLangURL }}">
     <div id="site-banner">
       <img id="site-banner-image" src="{{ $bannerImage }}">

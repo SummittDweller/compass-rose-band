@@ -13,7 +13,7 @@ footnoteReturnLinkContents = "^"
 ## Theme specific examples
 #author = "Sebastian Pech"
 #copyright = "Sebastian Pech"
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "G-DWKK7PGW9D"
 enableRobotsTXT = true
 pygmentsCodeFences = true
 canonifyurls = true

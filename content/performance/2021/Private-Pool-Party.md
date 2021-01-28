@@ -5,7 +5,7 @@ lastMod: 2021-01-2821:35:32-06:00
 date: 2021-07-31
 startTime: "6pm"
 endTime: "9pm"
-location: ""
+location: "Private Location"
 city: "Swisher, IA"
 venues:
   - Swisher

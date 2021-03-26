@@ -1,5 +1,5 @@
 ---
-title: "St Joe's Fun Days"
+title: "St. Joe's Fun Days"
 type: performance
 lastMod: 2021-01-28T21:41:22-06:00
 date: 2021-06-05
@@ -12,7 +12,7 @@ venues:
   - Marion
 description: "Text about this post"
 publishDate: 2021-01-28
-draft: true
+draft: false
 ---
 
 The **Compass Rose Band** returns for another year at the always FUN, _St. Joe's Fun Days_. We will play under the huge beer tent, rain or shine!

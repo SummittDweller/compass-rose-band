@@ -1,0 +1,139 @@
+backend:
+  name: github
+  repo: SummittDweller/compass-rose-band
+  branch: main 
+  # api_root: https://api.github.com
+  # site_domain: https://blog.SummittDweller.com
+  # base_url: https://api.netlify.com
+  # auth_endpoint: auth
+
+media_folder: 'static/images'
+public_folder: 'images'
+
+collections:
+  - name: 'performance'
+    label: 'Performance'
+    folder: 'content/performance'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: true
+      
+    fields:
+
+      - label: Title
+        name: title
+        widget: string
+        reqiured: true
+
+      - label: Synopsis
+        name: body
+        widget: markdown 
+        reqiured: false
+
+      - label: Production Notes
+        name: description
+        widget: string
+        hint: "Populates the 'description' field."
+        reqiured: false
+
+      - label: Publish Date
+        name: publishDate
+        widget: date
+
+      - label: Expiration Date
+        name: expiryDate
+        widget: date
+
+      - label: Date Range
+        name: dateRange
+        widget: string
+        reqiured: false
+
+      - label: Short Title
+        name: shortTitle
+        required: true
+        widget: string
+        pattern: ['.{1,20}', "20 characters max."]
+
+      - label: One Sheet
+        name: oneSheet
+        widget: image
+        ui: true
+        default: "no-image-available.png"
+        media_library:
+          config:
+            multiple: false
+
+      - label: Show Type
+        name: showType
+        widget: select
+        options: [ "Closed", "Cinema", "Animated Cinema", "Live Performance", "Meeting", "Social Event", "Private" ]
+        reqiured: false
+
+      - label: Running Time 
+        name: runningTime
+        widget: number
+        hint: "Enter running time in minutes."
+        default: 120
+
+      - label: "MPAA Rating"   
+        name: mpaaRating
+        widget: select
+        options: [ "G", "PG", "PG-13", "NC-17", "R", "Not Rated" ]
+        default: "Not Rated"
+
+      - label: Official URL
+        name: officialURL
+        widget: string
+        reqiured: false
+
+      - label: IMDB URL 
+        name: imdbURL 
+        widget: string
+        reqiured: false
+      
+      - label: Performances
+        name: performanceList
+        widget: object
+        
+        fields:
+          - label: Performance 
+            name: performance 
+            widget: list
+
+            fields:
+              - { label: When, name: date, widget: datetime }
+              - { label: Format, name: format, widget: select, options: [ "2D", "3D", "Not Applicable" ], required: false }
+              - { label: Peformance Note, name: note, required: false }
+
+      - label: "Studio Info"
+        name: studioInfo 
+        widget: object
+        collapsed: true
+        summary: "{{fields.studio}} - ${{fields.studioFee}} - {{fields.studioPercentage}}%"
+
+        fields:
+          - label: Studio 
+            name: studio 
+            widget: string
+            default: "Not Specified"
+            required: false
+
+          - label: Studio Fee
+            name: studioFee
+            widget: number
+            default: 0
+            hint: "Enter fee in US dollars." 
+            required: false
+
+          - label: Studio Percentage
+            name : studioPercentage
+            widget: number
+            default: 0 
+            required: false
+                    
+      - label: Draft 
+        name: draft
+        widget: boolean
+        default: false

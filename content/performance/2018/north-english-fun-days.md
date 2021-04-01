@@ -1,7 +1,6 @@
 ---
 title: "North English Fun Days"
 type: performance
-lastMod: 2019-11-30
 date: 2018-07-28
 startTime: "8pm"
 endTime: "12am"

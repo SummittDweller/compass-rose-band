@@ -1,7 +1,6 @@
 ---
 title: "Bobbers Grill with the Compass Rose Band"
 type: performance
-lastMod: 2019-11-30
 date: 2018-08-24
 startTime: "7pm"
 endTime: "11pm"

@@ -1,7 +1,6 @@
 ---
 title: "New Year's Eve Party"
 type: performance
-lastMod: 2019-11-30
 date: 2018-12-31
 startTime: "8:30pm"
 endTime: "12:30am"

@@ -1,7 +1,6 @@
 ---
 title: "JR and Laurieloo's Party on the Patio"
 type: performance
-lastMod: 2019-11-30
 date: 2018-06-30
 startTime: "6pm"
 endTime: "9pm"

@@ -1,7 +1,6 @@
 ---
 title: "Meskwaki Casino"
 type: performance
-lastMod: 2019-11-30
 date: 2018-04-27
 startTime: "8:30pm"
 endTime: "1am"

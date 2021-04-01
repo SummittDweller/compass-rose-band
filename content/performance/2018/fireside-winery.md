@@ -1,7 +1,6 @@
 ---
 title: "Fireside Winery"
 type: performance
-lastMod: 2019-11-30
 date: 2018-06-22
 startTime: "7pm"
 endTime: "10pm"

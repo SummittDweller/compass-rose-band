@@ -1,7 +1,6 @@
 ---
 title: "Quad City Parrothead Club 15th Birthday Party"
 type: performance
-lastMod: 2019-11-30
 date: 2018-12-01
 startTime: "5pm"
 endTime: "9pm"

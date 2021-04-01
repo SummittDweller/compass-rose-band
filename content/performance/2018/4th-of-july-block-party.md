@@ -1,7 +1,6 @@
 ---
 title: "4th of July Block Party"
 type: performance
-lastMod: 2019-11-30
 date: 2018-07-04
 startTime: "5pm"
 endTime: "9pm"

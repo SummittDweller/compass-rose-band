@@ -1,7 +1,6 @@
 ---
 title: "Shake the Lake Music Festival"
 type: performance
-lastMod: 2014-08-24
 date: 2014-08-24
 startTime: "12pm"
 endTime: "2pm"

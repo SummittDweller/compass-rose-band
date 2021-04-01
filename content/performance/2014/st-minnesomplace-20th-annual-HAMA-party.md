@@ -1,7 +1,6 @@
 ---
 title: "St. MinneSomePlace 20th Annual Holiday and Membership Appreciation (HAMA) Party"
 type: performance
-lastMod: 2019-11-30
 date: 2014-12-06
 startTime: "8pm"
 endTime: "12am"

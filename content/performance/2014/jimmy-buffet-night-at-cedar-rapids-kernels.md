@@ -1,7 +1,6 @@
 ---
 title: "Jimmy Buffet Night at the Cedar Rapids Kernels"
 type: performance
-lastMod: 2019-11-29
 date: 2014-08-09
 startTime: "5pm"
 endTime: "11pm"

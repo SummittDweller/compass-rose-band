@@ -1,7 +1,6 @@
 ---
 title: "Otis' Tailgators Post Game Party"
 type: performance
-lastMod: 2014-09-27
 date: 2014-09-27
 startTime: 6pm"
 endTime: "1am"

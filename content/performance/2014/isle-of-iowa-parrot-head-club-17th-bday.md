@@ -1,7 +1,6 @@
 ---
 title: "Isle of Iowa Parrot Head Club 17th Birthday Party"
 type: performance
-lastMod: 2014-02-27
 date: 2014-05-04
 startTime: "3pm"
 endTime: "9pm"

@@ -1,7 +1,6 @@
 ---
 title: "The Compass Rose Band at Rubies Bar"
 type: performance
-lastMod: 2019-11-30
 date: 2014-12-20
 startTime: "9:30pm"
 endTime: "1:30am"

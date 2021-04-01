@@ -1,7 +1,6 @@
 ---
 title: "The Mississippi Moon Bar"
 type: performance
-lastMod: 2019-11-29
 date: 2014-02-22
 startTime: "8pm"
 endTime: "12am"

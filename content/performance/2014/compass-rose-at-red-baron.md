@@ -1,7 +1,6 @@
 ---
 title: "The Compass Rose Band at The Red Baron"
 type: performance
-lastMod: 2019-11-30
 date: 2014-11-29
 startTime: "9pm"
 endTime: "1am"

@@ -1,7 +1,6 @@
 ---
 title: "Private Party"
 type: performance
-lastMod: 2019-11-30
 date: 2016-06-18
 startTime: "7pm"
 endTime: "11pm"

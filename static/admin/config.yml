@@ -13,6 +13,7 @@ collections:
     path: '{{year}}/{{slug}}'
     preview_path: '{{year}}/{{slug}}'
     preview_path_date_field: date
+    sort: "date:desc"
     sortable_fields: [ 'date', 'lastmod' ]
     view_groups:
       - label: Year

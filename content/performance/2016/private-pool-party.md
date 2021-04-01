@@ -1,7 +1,6 @@
 ---
 title: "Private Pool Party"
 type: performance
-lastMod: 2019-11-30
 date: 2016-07-16
 startTime: "6pm"
 endTime: "9pm"

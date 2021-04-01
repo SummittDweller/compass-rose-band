@@ -1,7 +1,6 @@
 ---
 title: "Marion Ballroom Dance Party"
 type: performance
-lastMod: 2019-11-30
 date: 2016-04-16
 startTime: "7:30pm"
 endTime: "10:30pm"

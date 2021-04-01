@@ -1,7 +1,6 @@
 ---
 title: "St. Judes Sweetcorn Festival"
 type: performance
-lastMod: 2019-11-30
 date: 2015-08-09
 startTime: "4pm"
 endTime: "7pm"

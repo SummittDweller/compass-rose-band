@@ -1,7 +1,6 @@
 ---
 title: "Clear Lake Tiki Bar 2"
 type: performance
-lastMod: 2019-11-30
 date: 2015-08-07
 startTime: "7pm"
 endTime: "10:30pm"

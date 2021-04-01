@@ -1,7 +1,6 @@
 ---
 title: "Bobbers Grill"
 type: performance
-lastMod: 2019-11-30
 date: 2015-08-01
 startTime: "6pm"
 endTime: "10pm"

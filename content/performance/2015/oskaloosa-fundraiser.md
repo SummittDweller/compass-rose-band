@@ -1,7 +1,6 @@
 ---
 title: "Oskaloosa Fundraiser"
 type: performance
-lastMod: 2019-11-30
 date: 2015-02-28
 startTime: "7pm"
 endTime: "11pm"

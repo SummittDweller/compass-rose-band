@@ -1,7 +1,6 @@
 ---
 title: "Riverside Casino"
 type: performance
-lastMod: 2019-11-30
 date: 2015-06-18
 startTime: "7pm"
 endTime: "9pm"

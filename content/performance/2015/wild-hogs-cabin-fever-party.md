@@ -1,7 +1,6 @@
 ---
 title: "Wild Hogs Cabin Fever Party"
 type: performance
-lastMod: 2019-11-30
 date: 2015-02-21
 startTime: "9pm"
 endTime: "1am"

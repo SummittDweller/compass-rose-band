@@ -1,7 +1,6 @@
 ---
 title: "Quad City Parrot Head Club Golf Outing Post Party"
 type: performance
-lastMod: 2019-11-30
 date: 2015-06-06
 startTime: "6pm"
 endTime: "10pm"

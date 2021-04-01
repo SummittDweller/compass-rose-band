@@ -1,7 +1,6 @@
 ---
 title: "Rubies Bar Birthday Party for Coach"
 type: performance
-lastMod: 2019-11-30
 date: 2015-02-20
 startTime: "9:30pm"
 endTime: "1:30am"

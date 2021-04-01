@@ -1,7 +1,6 @@
 ---
 title: "Rich's Lodge Pool Party"
 type: performance
-lastMod: 2019-11-30
 date: 2015-07-18
 startTime: "4pm"
 endTime: "6pm"

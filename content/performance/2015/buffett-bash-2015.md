@@ -1,7 +1,6 @@
 ---
 title: "Buffett Bash 2015"
 type: performance
-lastMod: 2019-11-30
 date: 2015-08-21
 startTime: "4pm"
 endTime: "8pm"

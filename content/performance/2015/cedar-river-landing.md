@@ -1,7 +1,6 @@
 ---
 title: "Cedar River Landing"
 type: performance
-lastMod: 2019-11-30
 date: 2015-04-18
 startTime: "9pm"
 endTime: "1am"

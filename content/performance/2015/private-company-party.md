@@ -1,7 +1,6 @@
 ---
 title: "Private Company Party"
 type: performance
-lastMod: 2019-11-30
 date: 2015-09-24
 startTime: "5pm"
 endTime: "9pm"

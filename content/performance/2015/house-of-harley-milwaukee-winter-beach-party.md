@@ -1,7 +1,6 @@
 ---
 title: "House of Harley - Milwaukee Winter Beach Party"
 type: performance
-lastMod: 2019-11-30
 date: 2015-01-24
 startTime: "3:30pm"
 endTime: "6pm"

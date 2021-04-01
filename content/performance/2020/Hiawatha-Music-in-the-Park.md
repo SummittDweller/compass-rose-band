@@ -12,7 +12,6 @@ venues:
   - "Guthridge Park"
 description: "Text about this post"
 publishDate: 2019-11-29
-lastMod: 2019-11-29
 draft: true
 ---
 

@@ -12,7 +12,6 @@ venues:
   - "Lowden Street Dance"
 description: "Text about this post"
 publishDate: 2019-11-30
-lastMod: 2019-11-30
 draft: true
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "Newbo Rock the Block"
 type: performance
-lastMod: 2020-06-16
 date: 2020-07-10
 startTime: "6pm"
 endTime: "8pm"

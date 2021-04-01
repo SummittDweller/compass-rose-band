@@ -12,6 +12,5 @@ venues:
   - "Des Moines Airport Holiday Inn"
 description: "Text about this post"
 publishDate: 2021-01-10
-lastMod: 2021-01-10
 draft: false
 ---

@@ -12,6 +12,5 @@ venues:
   - "El Kahir Shriner Hall"
 description: "Text about this post"
 publishDate: 2021-03-26
-lastMod: 2021-03-26
 draft: false
 ---

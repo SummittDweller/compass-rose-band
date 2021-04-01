@@ -12,6 +12,15 @@ collections:
     slug: '{{slug}}'
     path: '{{year}}/{{slug}}'
     preview_path: '{{year}}/{{slug}}'
+    preview_path_date_field: date
+    sortable_fields: [ 'date', 'lastmod' ]
+    view_groups:
+      - label: Year
+        field: date
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}
+      - label: Drafts
+        field: draft
     editor:
       preview: true
     fields:

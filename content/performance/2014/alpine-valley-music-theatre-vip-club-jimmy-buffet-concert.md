@@ -1,7 +1,6 @@
 ---
 title: "Alpine Valley Music Theatre VIP Club for Jimmy Buffet Concert"
 type: performance
-lastMod: 2014-04-29
 date: 2014-08-23
 startTime: "6:30pm"
 endTime: "12am"

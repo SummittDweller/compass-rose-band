@@ -1,7 +1,6 @@
 ---
 title: "Kate Sanders Retirement/Birthday Party"
 type: performance
-lastMod: 2019-11-30
 date: 2017-09-23
 startTime: "5pm"
 endTime: "9pm"

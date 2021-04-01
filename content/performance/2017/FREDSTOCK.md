@@ -1,7 +1,6 @@
 ---
 title: "FREDSTOCK"
 type: performance
-lastMod: 2019-11-30
 date: 2017-06-17
 startTime: "12pm"
 endTime: "9pm"

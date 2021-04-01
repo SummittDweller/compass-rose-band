@@ -1,7 +1,6 @@
 ---
 title: "Cedar Rapids Corvette Club Car Show"
 type: performance
-lastMod: 2019-11-30
 date: 2017-06-10
 startTime: "10am"
 endTime: "4pm"

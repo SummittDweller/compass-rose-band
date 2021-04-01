@@ -1,7 +1,6 @@
 ---
 title: "Q Casino"
 type: performance
-lastMod: 2019-11-30
 date: 2017-09-30
 startTime: "8pm"
 endTime: "10pm"

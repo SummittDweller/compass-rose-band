@@ -1,7 +1,6 @@
 ---
 title: "New Year's Eve Bash"
 type: performance
-lastMod: 2019-11-30
 date: 2017-12-31
 startTime: "9pm"
 endTime: "1am"

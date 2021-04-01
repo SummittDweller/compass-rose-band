@@ -1,7 +1,6 @@
 ---
 title: "Rock the Block"
 type: performance
-lastMod: 2019-11-30
 date: 2017-06-09
 startTime: "5:30pm"
 endTime: "8pm"

@@ -1,7 +1,6 @@
 ---
 title: "House Concert"
 type: performance
-lastMod: 2019-11-30
 date: 2017-06-24
 startTime: "6pm"
 endTime: "9pm"

@@ -1,7 +1,6 @@
 ---
 title: "Wilton 37th Annual Founders Day Celebration"
 type: performance
-lastMod: 2019-11-30
 date: 2017-08-25
 startTime: "8pm"
 endTime: "12am"

@@ -1,7 +1,6 @@
 ---
 title: "Throttle Down Sports Bar"
 type: performance
-lastMod: 2019-11-30
 date: 2017-10-20
 startTime: "9pm"
 endTime: "12am"

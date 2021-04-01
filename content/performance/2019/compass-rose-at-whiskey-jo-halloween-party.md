@@ -1,7 +1,6 @@
 ---
 title: "Compass Rose at Whiskey Jo's Halloween Party"
 type: performance
-lastMod: 2019-11-30
 date: 2019-11-01
 startTime: "7pm"
 endTime: "11pm"

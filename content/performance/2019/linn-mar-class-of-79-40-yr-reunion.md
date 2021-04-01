@@ -1,7 +1,6 @@
 ---
 title: "Linn Mar Class of '79 40 Year Reunion"
 type: performance
-lastMod: 2019-11-30
 date: 2019-08-10
 startTime: "8pm"
 endTime: "9pm"

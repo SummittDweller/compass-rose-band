@@ -1,7 +1,6 @@
 ---
 title: "Friday Night Live With Compass Rose"
 type: performance
-lastMod: 2019-11-30
 date: 2019-10-25
 startTime: "5pm"
 endTime: "9pm"

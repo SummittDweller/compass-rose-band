@@ -1,7 +1,6 @@
 ---
 title: "Millstream Brau Haus Halloween Party"
 type: performance
-lastMod: 2019-11-30
 date: 2019-10-26
 startTime: "6pm"
 endTime: "9pm"

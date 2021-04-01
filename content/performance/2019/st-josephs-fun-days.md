@@ -1,7 +1,6 @@
 ---
 title: "St. Joseph's Fun Days"
 type: performance
-lastMod: 2019-11-30
 date: 2019-06-01
 startTime: "1:30pm"
 endTime: "5:30pm"

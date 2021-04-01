@@ -1,7 +1,6 @@
 ---
 title: "Millstream Brewery"
 type: performance
-lastMod: 2019-11-30
 date: 2019-07-27
 startTime: "6pm"
 endTime: "9pm"

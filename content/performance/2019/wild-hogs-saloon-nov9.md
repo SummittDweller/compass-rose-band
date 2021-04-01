@@ -1,7 +1,6 @@
 ---
 title: "Wild Hogs Saloon"
 type: performance
-lastMod: 2019-11-30
 date: 2019-09-09
 startTime: "3pm"
 endTime: "7pm"

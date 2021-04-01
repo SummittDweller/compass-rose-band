@@ -1,7 +1,6 @@
 ---
 title: "Whiskey Jo's Pub & Grub"
 type: performance
-lastMod: 2019-11-30
 date: 2019-09-27
 startTime: "7pm"
 endTime: "11pm"

@@ -1,7 +1,6 @@
 ---
 title: "Laurieloo and Doug's 60th Birthday Bash"
 type: performance
-lastMod: 2019-11-30
 date: 2019-08-03
 startTime: "6pm"
 endTime: "10pm"

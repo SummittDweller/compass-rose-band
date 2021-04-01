@@ -1,7 +1,6 @@
 ---
 title: "Lowden Block Party"
 type: performance
-lastMod: 2019-11-30
 date: 2019-09-21
 startTime: "8pm"
 endTime: "12am"

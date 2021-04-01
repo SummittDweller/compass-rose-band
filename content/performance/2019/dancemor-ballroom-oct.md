@@ -1,7 +1,6 @@
 ---
 title: "DanceMor Ballroom"
 type: performance
-lastMod: 2019-11-30
 date: 2019-10-19
 startTime: "8pm"
 endTime: "12am"

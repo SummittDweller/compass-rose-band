@@ -11,7 +11,7 @@ location: Surf Ballroom
 draft: false
 # Enter comma separated values.
 venues:
-  - SurfBallroom
-  - ClearLake
+  - Surf Ballroom
+  - Clear Lake
 ---
 The Compass Rose Band plays from 12:00pm - 12:45pm.
